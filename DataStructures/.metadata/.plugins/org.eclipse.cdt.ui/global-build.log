@@ -1,0 +1,1728 @@
+02:32:26 **** Build of configuration Debug for project SegmentTree ****
+make all 
+Building file: ../SegmentTree.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"SegmentTree.d" -MT"SegmentTree.d" -o "SegmentTree.o" "../SegmentTree.cpp"
+../SegmentTree.cpp:37:23: error: delegating constructors are permitted only in C++11
+        Node(int L, int R) : Node() {
+                             ^~~~
+../SegmentTree.cpp:42:32: error: delegating constructors are permitted only in C++11
+        Node(int L, int R, int val) : Node(L, R) {
+                                      ^~~~
+../SegmentTree.cpp:49:27: error: delegating constructors are permitted only in C++11
+        Node(Node *l, Node *r) : Node() {
+                                 ^~~~
+3 errors generated.
+make: *** [SegmentTree.o] Error 1
+02:35:11 **** Incremental Build of configuration Debug for project SegmentTree ****
+make all 
+Building file: ../SegmentTree.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"SegmentTree.d" -MT"SegmentTree.d" -o "SegmentTree.o" "../SegmentTree.cpp"
+../SegmentTree.cpp:37:23: error: delegating constructors are permitted only in C++11
+        Node(int L, int R) : Node() {
+                             ^~~~
+../SegmentTree.cpp:42:32: error: delegating constructors are permitted only in C++11
+        Node(int L, int R, int val) : Node(L, R) {
+                                      ^~~~
+../SegmentTree.cpp:49:27: error: delegating constructors are permitted only in C++11
+        Node(Node *l, Node *r) : Node() {
+                                 ^~~~
+3 errors generated.
+make: *** [SegmentTree.o] Error 1
+02:40:05 **** Incremental Build of configuration Debug for project SegmentTree ****
+make all 
+Building file: ../SegmentTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -Wextra -Wconversion -c -fmessage-length=0 -MMD -MP -MF"SegmentTree.d" -MT"SegmentTree.d" -o "SegmentTree.o" "../SegmentTree.cpp"
+Finished building: ../SegmentTree.cpp
+ 
+Building target: SegmentTree
+Invoking: MacOS X C++ Linker
+g++  -o "SegmentTree"  ./SegmentTree.o   
+Finished building target: SegmentTree
+ 
+02:40:35 **** Incremental Build of configuration Debug for project SegmentTree ****
+make all 
+make: Nothing to be done for `all'.
+02:40:40 **** Incremental Build of configuration Debug for project SegmentTree ****
+make all 
+make: Nothing to be done for `all'.
+02:42:41 **** Incremental Build of configuration Debug for project SegmentTree ****
+make all 
+Building file: ../SegmentTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -Wextra -Wconversion -c -fmessage-length=0 -MMD -MP -MF"SegmentTree.d" -MT"SegmentTree.d" -o "SegmentTree.o" "../SegmentTree.cpp"
+Finished building: ../SegmentTree.cpp
+ 
+Building target: SegmentTree
+Invoking: MacOS X C++ Linker
+g++  -o "SegmentTree"  ./SegmentTree.o   
+Finished building target: SegmentTree
+ 
+02:49:04 **** Build of configuration Debug for project FenwickTree ****
+make all 
+Building file: ../FenwickTree.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"FenwickTree.d" -MT"FenwickTree.d" -o "FenwickTree.o" "../FenwickTree.cpp"
+../FenwickTree.cpp:39:2: error: use of undeclared identifier 'scanf'
+        scanf("%d", &n);
+        ^
+../FenwickTree.cpp:43:3: error: use of undeclared identifier 'scanf'
+                scanf("%d", &val);
+                ^
+2 errors generated.
+make: *** [FenwickTree.o] Error 1
+02:49:04 **** Incremental Build of configuration Debug for project SegmentTree ****
+make all 
+Building file: ../SegmentTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -Wextra -Wconversion -c -fmessage-length=0 -MMD -MP -MF"SegmentTree.d" -MT"SegmentTree.d" -o "SegmentTree.o" "../SegmentTree.cpp"
+Finished building: ../SegmentTree.cpp
+ 
+Building target: SegmentTree
+Invoking: MacOS X C++ Linker
+g++  -o "SegmentTree"  ./SegmentTree.o   
+Finished building target: SegmentTree
+ 
+02:49:08 **** Incremental Build of configuration Debug for project FenwickTree ****
+make all 
+Building file: ../FenwickTree.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"FenwickTree.d" -MT"FenwickTree.d" -o "FenwickTree.o" "../FenwickTree.cpp"
+../FenwickTree.cpp:39:2: error: use of undeclared identifier 'scanf'
+        scanf("%d", &n);
+        ^
+../FenwickTree.cpp:43:3: error: use of undeclared identifier 'scanf'
+                scanf("%d", &val);
+                ^
+2 errors generated.
+make: *** [FenwickTree.o] Error 1
+02:49:09 **** Incremental Build of configuration Debug for project SegmentTree ****
+make all 
+make: Nothing to be done for `all'.
+02:49:30 **** Incremental Build of configuration Debug for project FenwickTree ****
+make all 
+Building file: ../FenwickTree.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"FenwickTree.d" -MT"FenwickTree.d" -o "FenwickTree.o" "../FenwickTree.cpp"
+Finished building: ../FenwickTree.cpp
+ 
+Building target: FenwickTree
+Invoking: MacOS X C++ Linker
+g++  -o "FenwickTree"  ./FenwickTree.o   
+Finished building target: FenwickTree
+ 
+02:49:31 **** Incremental Build of configuration Debug for project SegmentTree ****
+make all 
+make: Nothing to be done for `all'.
+02:51:58 **** Incremental Build of configuration Debug for project FenwickTree ****
+make all 
+Building file: ../FenwickTree.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"FenwickTree.d" -MT"FenwickTree.d" -o "FenwickTree.o" "../FenwickTree.cpp"
+Finished building: ../FenwickTree.cpp
+ 
+Building target: FenwickTree
+Invoking: MacOS X C++ Linker
+g++  -o "FenwickTree"  ./FenwickTree.o   
+Finished building target: FenwickTree
+ 
+02:51:59 **** Incremental Build of configuration Debug for project SegmentTree ****
+make all 
+make: Nothing to be done for `all'.
+02:52:02 **** Incremental Build of configuration Debug for project FenwickTree ****
+make all 
+make: Nothing to be done for `all'.
+02:52:41 **** Incremental Build of configuration Debug for project FenwickTree ****
+make all 
+make: Nothing to be done for `all'.
+02:52:41 **** Incremental Build of configuration Debug for project SegmentTree ****
+make all 
+make: Nothing to be done for `all'.
+02:53:24 **** Incremental Build of configuration Debug for project FenwickTree ****
+make all 
+make: Nothing to be done for `all'.
+02:53:25 **** Incremental Build of configuration Debug for project SegmentTree ****
+make all 
+Building file: ../SegmentTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -Wextra -Wconversion -c -fmessage-length=0 -MMD -MP -MF"SegmentTree.d" -MT"SegmentTree.d" -o "SegmentTree.o" "../SegmentTree.cpp"
+Finished building: ../SegmentTree.cpp
+ 
+Building target: SegmentTree
+Invoking: MacOS X C++ Linker
+g++  -o "SegmentTree"  ./SegmentTree.o   
+Finished building target: SegmentTree
+ 
+02:57:20 **** Incremental Build of configuration Debug for project FenwickTree ****
+make all 
+Building file: ../FenwickTree.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"FenwickTree.d" -MT"FenwickTree.d" -o "FenwickTree.o" "../FenwickTree.cpp"
+../FenwickTree.cpp:45:20: error: expected ')'
+                scanf("%d", &a[i]l);
+                                 ^
+../FenwickTree.cpp:45:8: note: to match this '('
+                scanf("%d", &a[i]l);
+                     ^
+1 error generated.
+make: *** [FenwickTree.o] Error 1
+02:57:20 **** Incremental Build of configuration Debug for project SegmentTree ****
+make all 
+make: Nothing to be done for `all'.
+02:57:24 **** Incremental Build of configuration Debug for project FenwickTree ****
+make all 
+Building file: ../FenwickTree.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"FenwickTree.d" -MT"FenwickTree.d" -o "FenwickTree.o" "../FenwickTree.cpp"
+Finished building: ../FenwickTree.cpp
+ 
+Building target: FenwickTree
+Invoking: MacOS X C++ Linker
+g++  -o "FenwickTree"  ./FenwickTree.o   
+Finished building target: FenwickTree
+ 
+02:57:25 **** Incremental Build of configuration Debug for project SegmentTree ****
+make all 
+make: Nothing to be done for `all'.
+02:57:37 **** Incremental Build of configuration Debug for project FenwickTree ****
+make all 
+make: Nothing to be done for `all'.
+02:57:37 **** Incremental Build of configuration Debug for project SegmentTree ****
+make all 
+make: Nothing to be done for `all'.
+02:57:46 **** Incremental Build of configuration Debug for project FenwickTree ****
+make all 
+make: Nothing to be done for `all'.
+02:58:01 **** Incremental Build of configuration Debug for project FenwickTree ****
+make all 
+make: Nothing to be done for `all'.
+02:58:01 **** Incremental Build of configuration Debug for project SegmentTree ****
+make all 
+make: Nothing to be done for `all'.
+02:58:19 **** Incremental Build of configuration Debug for project FenwickTree ****
+make all 
+make: Nothing to be done for `all'.
+02:59:21 **** Incremental Build of configuration Debug for project FenwickTree ****
+make all 
+Building file: ../FenwickTree.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"FenwickTree.d" -MT"FenwickTree.d" -o "FenwickTree.o" "../FenwickTree.cpp"
+Finished building: ../FenwickTree.cpp
+ 
+Building target: FenwickTree
+Invoking: MacOS X C++ Linker
+g++  -o "FenwickTree"  ./FenwickTree.o   
+Finished building target: FenwickTree
+ 
+02:59:22 **** Incremental Build of configuration Debug for project SegmentTree ****
+make all 
+Building file: ../SegmentTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -Wextra -Wconversion -c -fmessage-length=0 -MMD -MP -MF"SegmentTree.d" -MT"SegmentTree.d" -o "SegmentTree.o" "../SegmentTree.cpp"
+Finished building: ../SegmentTree.cpp
+ 
+Building target: SegmentTree
+Invoking: MacOS X C++ Linker
+g++  -o "SegmentTree"  ./SegmentTree.o   
+Finished building target: SegmentTree
+ 
+03:09:43 **** Incremental Build of configuration Debug for project FenwickTree ****
+make all 
+make: Nothing to be done for `all'.
+03:09:43 **** Incremental Build of configuration Debug for project SegmentTree ****
+make all 
+make: Nothing to be done for `all'.
+03:09:43 **** Build of configuration Debug for project SparseTable ****
+make all 
+Building file: ../SparseTable.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"SparseTable.d" -MT"SparseTable.d" -o "SparseTable.o" "../SparseTable.cpp"
+../SparseTable.cpp:39:9: error: use of undeclared identifier 'min'; did you mean 'fmin'?
+        return min(f[k][L], f[k][R - (1 << k) + 1]);
+               ^~~
+               fmin
+/usr/include/math.h:550:15: note: 'fmin' declared here
+extern double fmin(double, double);
+              ^
+1 error generated.
+make: *** [SparseTable.o] Error 1
+03:10:05 **** Incremental Build of configuration Debug for project FenwickTree ****
+make all 
+make: Nothing to be done for `all'.
+03:10:05 **** Incremental Build of configuration Debug for project SegmentTree ****
+make all 
+make: Nothing to be done for `all'.
+03:10:05 **** Incremental Build of configuration Debug for project SparseTable ****
+make all 
+Building file: ../SparseTable.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"SparseTable.d" -MT"SparseTable.d" -o "SparseTable.o" "../SparseTable.cpp"
+../SparseTable.cpp:39:9: error: use of undeclared identifier 'min'; did you mean 'fmin'?
+        return min(f[k][L], f[k][R - (1 << k) + 1]);
+               ^~~
+               fmin
+/usr/include/math.h:550:15: note: 'fmin' declared here
+extern double fmin(double, double);
+              ^
+1 error generated.
+make: *** [SparseTable.o] Error 1
+03:10:10 **** Incremental Build of configuration Debug for project FenwickTree ****
+make all 
+make: Nothing to be done for `all'.
+03:10:11 **** Incremental Build of configuration Debug for project SegmentTree ****
+make all 
+make: Nothing to be done for `all'.
+03:10:11 **** Incremental Build of configuration Debug for project SparseTable ****
+make all 
+Building file: ../SparseTable.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"SparseTable.d" -MT"SparseTable.d" -o "SparseTable.o" "../SparseTable.cpp"
+Finished building: ../SparseTable.cpp
+ 
+Building target: SparseTable
+Invoking: MacOS X C++ Linker
+g++  -o "SparseTable"  ./SparseTable.o   
+Finished building target: SparseTable
+ 
+03:11:33 **** Incremental Build of configuration Debug for project FenwickTree ****
+make all 
+make: Nothing to be done for `all'.
+03:11:33 **** Incremental Build of configuration Debug for project SegmentTree ****
+make all 
+make: Nothing to be done for `all'.
+03:11:33 **** Incremental Build of configuration Debug for project SparseTable ****
+make all 
+Building file: ../SparseTable.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"SparseTable.d" -MT"SparseTable.d" -o "SparseTable.o" "../SparseTable.cpp"
+Finished building: ../SparseTable.cpp
+ 
+Building target: SparseTable
+Invoking: MacOS X C++ Linker
+g++  -o "SparseTable"  ./SparseTable.o   
+Finished building target: SparseTable
+ 
+03:11:37 **** Incremental Build of configuration Debug for project SparseTable ****
+make all 
+make: Nothing to be done for `all'.
+03:15:19 **** Incremental Build of configuration Debug for project FenwickTree ****
+make all 
+Building file: ../FenwickTree.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"FenwickTree.d" -MT"FenwickTree.d" -o "FenwickTree.o" "../FenwickTree.cpp"
+Finished building: ../FenwickTree.cpp
+ 
+Building target: FenwickTree
+Invoking: MacOS X C++ Linker
+g++  -o "FenwickTree"  ./FenwickTree.o   
+Finished building target: FenwickTree
+ 
+03:15:20 **** Incremental Build of configuration Debug for project SegmentTree ****
+make all 
+Building file: ../SegmentTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -Wextra -Wconversion -c -fmessage-length=0 -MMD -MP -MF"SegmentTree.d" -MT"SegmentTree.d" -o "SegmentTree.o" "../SegmentTree.cpp"
+Finished building: ../SegmentTree.cpp
+ 
+Building target: SegmentTree
+Invoking: MacOS X C++ Linker
+g++  -o "SegmentTree"  ./SegmentTree.o   
+Finished building target: SegmentTree
+ 
+03:15:21 **** Incremental Build of configuration Debug for project SparseTable ****
+make all 
+Building file: ../SparseTable.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"SparseTable.d" -MT"SparseTable.d" -o "SparseTable.o" "../SparseTable.cpp"
+Finished building: ../SparseTable.cpp
+ 
+Building target: SparseTable
+Invoking: MacOS X C++ Linker
+g++  -o "SparseTable"  ./SparseTable.o   
+Finished building target: SparseTable
+ 
+17:47:13 **** Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+Finished building: ../CartesianTree.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+17:47:15 **** Incremental Build of configuration Debug for project FenwickTree ****
+make all 
+make: Nothing to be done for `all'.
+17:47:15 **** Incremental Build of configuration Debug for project SegmentTree ****
+make all 
+Building file: ../SegmentTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -Wextra -Wconversion -c -fmessage-length=0 -MMD -MP -MF"SegmentTree.d" -MT"SegmentTree.d" -o "SegmentTree.o" "../SegmentTree.cpp"
+Finished building: ../SegmentTree.cpp
+ 
+Building target: SegmentTree
+Invoking: MacOS X C++ Linker
+g++  -o "SegmentTree"  ./SegmentTree.o   
+Finished building target: SegmentTree
+ 
+17:47:16 **** Incremental Build of configuration Debug for project SparseTable ****
+make all 
+make: Nothing to be done for `all'.
+17:47:25 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+17:47:33 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+Finished building: ../CartesianTree.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+17:47:51 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+17:47:51 **** Incremental Build of configuration Debug for project FenwickTree ****
+make all 
+make: Nothing to be done for `all'.
+17:47:51 **** Incremental Build of configuration Debug for project SegmentTree ****
+make all 
+make: Nothing to be done for `all'.
+17:47:51 **** Incremental Build of configuration Debug for project SparseTable ****
+make all 
+make: Nothing to be done for `all'.
+17:49:48 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+../CartesianTree.cpp:17:18: error: delegating constructors are permitted only in C++11
+        Node(int key) : Node() {
+                        ^~~~
+1 error generated.
+make: *** [CartesianTree.o] Error 1
+17:49:49 **** Incremental Build of configuration Debug for project FenwickTree ****
+make all 
+make: Nothing to be done for `all'.
+17:49:49 **** Incremental Build of configuration Debug for project SegmentTree ****
+make all 
+make: Nothing to be done for `all'.
+17:49:49 **** Incremental Build of configuration Debug for project SparseTable ****
+make all 
+make: Nothing to be done for `all'.
+17:50:43 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+Finished building: ../CartesianTree.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+17:50:44 **** Incremental Build of configuration Debug for project FenwickTree ****
+make all 
+make: Nothing to be done for `all'.
+17:50:44 **** Incremental Build of configuration Debug for project SegmentTree ****
+make all 
+make: Nothing to be done for `all'.
+17:50:45 **** Incremental Build of configuration Debug for project SparseTable ****
+make all 
+make: Nothing to be done for `all'.
+17:51:35 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+../CartesianTree.cpp:20:3: error: no viable conversion from 'nullptr_t' to 'struct Node'
+} root = nullptr;
+  ^      ~~~~~~~
+../CartesianTree.cpp:10:8: note: candidate constructor (the implicit copy constructor) not viable: no known conversion from 'nullptr_t' to 'const Node &' for 1st argument
+struct Node {
+       ^
+../CartesianTree.cpp:10:8: note: candidate constructor (the implicit move constructor) not viable: no known conversion from 'nullptr_t' to 'Node &&' for 1st argument
+struct Node {
+       ^
+../CartesianTree.cpp:17:2: note: candidate constructor not viable: no known conversion from 'nullptr_t' to 'int' for 1st argument
+        Node(int key) : Node() {
+        ^
+../CartesianTree.cpp:56:2: error: expected '}'
+}
+ ^
+../CartesianTree.cpp:50:30: note: to match this '{'
+void insertInCartTree(int x) {
+                             ^
+2 errors generated.
+make: *** [CartesianTree.o] Error 1
+17:51:36 **** Incremental Build of configuration Debug for project FenwickTree ****
+make all 
+make: Nothing to be done for `all'.
+17:51:36 **** Incremental Build of configuration Debug for project SegmentTree ****
+make all 
+make: Nothing to be done for `all'.
+17:51:36 **** Incremental Build of configuration Debug for project SparseTable ****
+make all 
+make: Nothing to be done for `all'.
+17:51:52 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+../CartesianTree.cpp:20:3: error: no matching constructor for initialization of 'struct Node'
+} root(nullptr);
+  ^    ~~~~~~~
+../CartesianTree.cpp:10:8: note: candidate constructor (the implicit copy constructor) not viable: no known conversion from 'nullptr_t' to 'const Node' for 1st argument
+struct Node {
+       ^
+../CartesianTree.cpp:10:8: note: candidate constructor (the implicit move constructor) not viable: no known conversion from 'nullptr_t' to 'Node' for 1st argument
+struct Node {
+       ^
+../CartesianTree.cpp:17:2: note: candidate constructor not viable: no known conversion from 'nullptr_t' to 'int' for 1st argument
+        Node(int key) : Node() {
+        ^
+../CartesianTree.cpp:14:2: note: candidate constructor not viable: requires 0 arguments, but 1 was provided
+        Node() :
+        ^
+../CartesianTree.cpp:51:8: warning: unused variable 'A' [-Wunused-variable]
+        Node *A, *B;
+              ^
+../CartesianTree.cpp:51:12: warning: unused variable 'B' [-Wunused-variable]
+        Node *A, *B;
+                  ^
+2 warnings and 1 error generated.
+make: *** [CartesianTree.o] Error 1
+17:51:53 **** Incremental Build of configuration Debug for project FenwickTree ****
+make all 
+make: Nothing to be done for `all'.
+17:51:53 **** Incremental Build of configuration Debug for project SegmentTree ****
+make all 
+make: Nothing to be done for `all'.
+17:51:53 **** Incremental Build of configuration Debug for project SparseTable ****
+make all 
+make: Nothing to be done for `all'.
+17:52:03 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+../CartesianTree.cpp:20:3: error: no matching constructor for initialization of 'struct Node'
+} root(nullptr);
+  ^    ~~~~~~~
+../CartesianTree.cpp:10:8: note: candidate constructor (the implicit copy constructor) not viable: no known conversion from 'nullptr_t' to 'const Node' for 1st argument
+struct Node {
+       ^
+../CartesianTree.cpp:10:8: note: candidate constructor (the implicit move constructor) not viable: no known conversion from 'nullptr_t' to 'Node' for 1st argument
+struct Node {
+       ^
+../CartesianTree.cpp:17:2: note: candidate constructor not viable: no known conversion from 'nullptr_t' to 'int' for 1st argument
+        Node(int key) : Node() {
+        ^
+../CartesianTree.cpp:14:2: note: candidate constructor not viable: requires 0 arguments, but 1 was provided
+        Node() :
+        ^
+../CartesianTree.cpp:51:8: warning: unused variable 'A' [-Wunused-variable]
+        Node *A, *B;
+              ^
+../CartesianTree.cpp:51:12: warning: unused variable 'B' [-Wunused-variable]
+        Node *A, *B;
+                  ^
+2 warnings and 1 error generated.
+make: *** [CartesianTree.o] Error 1
+17:52:36 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+../CartesianTree.cpp:53:8: warning: unused variable 'A' [-Wunused-variable]
+        Node *A, *B;
+              ^
+../CartesianTree.cpp:53:12: warning: unused variable 'B' [-Wunused-variable]
+        Node *A, *B;
+                  ^
+2 warnings generated.
+Finished building: ../CartesianTree.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+17:53:21 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+Finished building: ../CartesianTree.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+17:59:12 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+18:03:52 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+Finished building: ../CartesianTree.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+18:06:02 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+Finished building: ../CartesianTree.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+18:06:10 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+18:06:51 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+../CartesianTree.cpp:63:2: error: use of undeclared identifier 'root'
+        root = merge(root, C);
+        ^
+../CartesianTree.cpp:63:15: error: use of undeclared identifier 'root'
+        root = merge(root, C);
+                     ^
+2 errors generated.
+make: *** [CartesianTree.o] Error 1
+18:07:05 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+Finished building: ../CartesianTree.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+18:07:09 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+18:07:34 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+Finished building: ../CartesianTree.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+18:07:38 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+18:08:31 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+Finished building: ../CartesianTree.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+18:08:33 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+18:11:34 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+Finished building: ../CartesianTree.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+18:11:38 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+18:36:29 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+Finished building: ../CartesianTree.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+18:38:41 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+Finished building: ../CartesianTree.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+18:42:38 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+Finished building: ../CartesianTree.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+18:42:43 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+18:43:52 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+Finished building: ../CartesianTree.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+18:59:13 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+Finished building: ../CartesianTree.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+18:59:15 **** Incremental Build of configuration Debug for project FenwickTree ****
+make all 
+make: Nothing to be done for `all'.
+18:59:15 **** Incremental Build of configuration Debug for project SegmentTree ****
+make all 
+make: Nothing to be done for `all'.
+18:59:15 **** Incremental Build of configuration Debug for project SparseTable ****
+make all 
+make: Nothing to be done for `all'.
+19:02:03 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTreeImplictKey.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTreeImplictKey.d" -MT"CartesianTreeImplictKey.d" -o "CartesianTreeImplictKey.o" "../CartesianTreeImplictKey.cpp"
+Finished building: ../CartesianTreeImplictKey.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o ./CartesianTreeImplictKey.o   
+duplicate symbol _main in:
+    ./CartesianTree.o
+    ./CartesianTreeImplictKey.o
+ld: 1 duplicate symbol for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [CartesianTree] Error 1
+19:12:27 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+../CartesianTree.cpp:69:16: warning: unused variable 'C' [-Wunused-variable]
+        Node *A, *B, *C;
+                      ^
+1 warning generated.
+Finished building: ../CartesianTree.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+19:12:35 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+Finished building: ../CartesianTree.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+19:18:29 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+Finished building: ../CartesianTree.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+19:18:33 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+19:22:14 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+Finished building: ../CartesianTree.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+19:22:19 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+19:23:29 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+Finished building: ../CartesianTree.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+19:23:31 **** Incremental Build of configuration Debug for project FenwickTree ****
+make all 
+make: Nothing to be done for `all'.
+19:23:31 **** Incremental Build of configuration Debug for project SegmentTree ****
+make all 
+make: Nothing to be done for `all'.
+19:23:31 **** Incremental Build of configuration Debug for project SparseTable ****
+make all 
+make: Nothing to be done for `all'.
+19:23:38 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+19:24:40 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+Finished building: ../CartesianTree.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+19:24:43 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+19:25:27 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+Finished building: ../CartesianTree.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+19:25:30 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+19:26:25 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+Finished building: ../CartesianTree.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+19:28:04 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+Finished building: ../CartesianTree.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+19:28:08 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+19:28:14 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+19:28:18 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+19:28:33 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+Finished building: ../CartesianTree.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+19:28:35 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+19:29:17 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+Finished building: ../CartesianTree.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+19:29:19 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+19:29:50 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+19:31:09 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+Finished building: ../CartesianTree.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+19:31:12 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+19:31:49 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+19:32:10 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+19:32:11 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+19:32:47 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+19:32:47 **** Incremental Build of configuration Debug for project FenwickTree ****
+make all 
+make: Nothing to be done for `all'.
+19:32:47 **** Incremental Build of configuration Debug for project SegmentTree ****
+make all 
+make: Nothing to be done for `all'.
+19:32:47 **** Incremental Build of configuration Debug for project SparseTable ****
+make all 
+make: Nothing to be done for `all'.
+19:32:49 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+19:32:51 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+19:35:03 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+Finished building: ../CartesianTree.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+19:35:05 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+19:36:17 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+Finished building: ../CartesianTree.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+19:36:19 **** Incremental Build of configuration Debug for project FenwickTree ****
+make all 
+make: Nothing to be done for `all'.
+19:36:19 **** Incremental Build of configuration Debug for project SegmentTree ****
+make all 
+make: Nothing to be done for `all'.
+19:36:19 **** Incremental Build of configuration Debug for project SparseTable ****
+make all 
+make: Nothing to be done for `all'.
+19:36:25 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+19:36:54 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+Finished building: ../CartesianTree.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+19:36:57 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+19:37:19 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+../CartesianTree.cpp:18:50: error: use of undeclared identifier 'frpintf'
+                l(nullptr), r(nullptr), key(0), prior(rand()) {frpintf(stdout, "HELLO");};
+                                                               ^
+1 error generated.
+make: *** [CartesianTree.o] Error 1
+19:37:23 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+../CartesianTree.cpp:18:50: error: use of undeclared identifier 'fpintf'; did you mean 'fprintf'?
+                l(nullptr), r(nullptr), key(0), prior(rand()) {fpintf(stdout, "HELLO");};
+                                                               ^~~~~~
+                                                               fprintf
+/usr/include/stdio.h:244:6: note: 'fprintf' declared here
+int      fprintf(FILE * __restrict, const char * __restrict, ...) __printflike(2, 3);
+         ^
+1 error generated.
+make: *** [CartesianTree.o] Error 1
+19:37:46 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+Finished building: ../CartesianTree.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+19:37:49 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+19:37:49 **** Incremental Build of configuration Debug for project FenwickTree ****
+make all 
+make: Nothing to be done for `all'.
+19:37:49 **** Incremental Build of configuration Debug for project SegmentTree ****
+make all 
+make: Nothing to be done for `all'.
+19:37:50 **** Incremental Build of configuration Debug for project SparseTable ****
+make all 
+make: Nothing to be done for `all'.
+19:37:52 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+19:37:52 **** Incremental Build of configuration Debug for project FenwickTree ****
+make all 
+make: Nothing to be done for `all'.
+19:37:52 **** Incremental Build of configuration Debug for project SegmentTree ****
+make all 
+make: Nothing to be done for `all'.
+19:37:53 **** Incremental Build of configuration Debug for project SparseTable ****
+make all 
+make: Nothing to be done for `all'.
+19:37:55 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+19:38:00 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+Finished building: ../CartesianTree.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+19:38:01 **** Incremental Build of configuration Debug for project FenwickTree ****
+make all 
+make: Nothing to be done for `all'.
+19:38:01 **** Incremental Build of configuration Debug for project SegmentTree ****
+make all 
+make: Nothing to be done for `all'.
+19:38:02 **** Incremental Build of configuration Debug for project SparseTable ****
+make all 
+make: Nothing to be done for `all'.
+19:38:08 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+19:38:18 **** Incremental Build of configuration Release for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+../CartesianTree.cpp:20:18: error: delegating constructors are permitted only in C++11
+        Node(int key) : Node() {
+                        ^~~~
+1 error generated.
+make: *** [CartesianTree.o] Error 1
+19:38:19 **** Incremental Build of configuration Debug for project FenwickTree ****
+make all 
+make: Nothing to be done for `all'.
+19:38:19 **** Incremental Build of configuration Debug for project SegmentTree ****
+make all 
+make: Nothing to be done for `all'.
+19:38:19 **** Incremental Build of configuration Debug for project SparseTable ****
+make all 
+make: Nothing to be done for `all'.
+19:38:23 **** Incremental Build of configuration Release for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+../CartesianTree.cpp:20:18: error: delegating constructors are permitted only in C++11
+        Node(int key) : Node() {
+                        ^~~~
+1 error generated.
+make: *** [CartesianTree.o] Error 1
+19:38:25 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+19:39:01 **** Incremental Build of configuration Release for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+Finished building: ../CartesianTree.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+19:39:04 **** Incremental Build of configuration Release for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+19:39:04 **** Incremental Build of configuration Debug for project FenwickTree ****
+make all 
+make: Nothing to be done for `all'.
+19:39:04 **** Incremental Build of configuration Debug for project SegmentTree ****
+make all 
+make: Nothing to be done for `all'.
+19:39:04 **** Incremental Build of configuration Debug for project SparseTable ****
+make all 
+make: Nothing to be done for `all'.
+19:39:06 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+19:39:09 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+19:39:15 **** Incremental Build of configuration Release for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+Finished building: ../CartesianTree.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+19:39:17 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+Finished building: ../CartesianTree.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+19:40:31 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+../CartesianTree.cpp:18:50: error: no matching function for call to 'fprintf'
+                l(nullptr), r(nullptr), key(0), prior(rand()) {fprintf(stdout, prior);};
+                                                               ^~~~~~~
+/usr/include/stdio.h:244:6: note: candidate function not viable: no known conversion from 'int' to 'const char *' for 2nd argument
+int      fprintf(FILE * __restrict, const char * __restrict, ...) __printflike(2, 3);
+         ^
+1 error generated.
+make: *** [CartesianTree.o] Error 1
+19:40:43 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+Finished building: ../CartesianTree.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+19:40:46 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+19:40:52 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+Finished building: ../CartesianTree.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+19:50:50 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+Finished building: ../CartesianTree.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+19:50:53 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+19:51:30 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+Finished building: ../CartesianTree.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+19:51:33 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+19:51:56 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+Finished building: ../CartesianTree.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+19:52:01 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+19:53:41 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+Finished building: ../CartesianTree.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+19:53:44 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+19:53:49 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+Finished building: ../CartesianTree.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+19:54:59 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+Finished building: ../CartesianTree.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+19:55:03 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+20:00:23 **** Clean-only build of configuration Debug for project CartesianTree ****
+make clean 
+rm -rf  ./CartesianTree.o  ./CartesianTree.d  CartesianTree
+ 
+20:00:23 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+Finished building: ../CartesianTree.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+20:00:59 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+../CartesianTree.cpp:126:19: error: no matching function for call to 'findKth'
+                        printf("%d\n", findKth(x));
+                                       ^~~~~~~
+../CartesianTree.cpp:90:5: note: candidate function not viable: requires 2 arguments, but 1 was provided
+int findKth(Node *node, int k) {
+    ^
+1 error generated.
+make: *** [CartesianTree.o] Error 1
+20:01:16 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+../CartesianTree.cpp:126:19: error: no matching function for call to 'findKth'
+                        printf("%d\n", findKth(x));
+                                       ^~~~~~~
+../CartesianTree.cpp:90:5: note: candidate function not viable: requires 2 arguments, but 1 was provided
+int findKth(Node *node, int k) {
+    ^
+1 error generated.
+make: *** [CartesianTree.o] Error 1
+20:01:51 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+Finished building: ../CartesianTree.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+20:01:56 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+20:03:08 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+20:03:10 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+20:04:12 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+Finished building: ../CartesianTree.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+20:04:16 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+20:04:32 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+20:06:46 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+20:07:27 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+20:07:28 **** Incremental Build of configuration Debug for project FenwickTree ****
+make all 
+make: Nothing to be done for `all'.
+20:07:28 **** Incremental Build of configuration Debug for project SegmentTree ****
+make all 
+make: Nothing to be done for `all'.
+20:07:28 **** Incremental Build of configuration Debug for project SparseTable ****
+make all 
+make: Nothing to be done for `all'.
+20:08:21 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+20:09:47 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+20:12:45 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+../CartesianTree.cpp:91:2: error: expected expression
+        catch (getSize(node) < k) {
+        ^
+1 error generated.
+make: *** [CartesianTree.o] Error 1
+20:16:44 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+../CartesianTree.cpp:101:11: error: unknown type name 'Exception'; did you mean 'std::exception'?
+        } catch (Exception &e) {
+                 ^~~~~~~~~
+                 std::exception
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/exception:90:29: note: 'std::exception' declared here
+class _LIBCPP_EXCEPTION_ABI exception
+                            ^
+1 error generated.
+make: *** [CartesianTree.o] Error 1
+20:17:14 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+../CartesianTree.cpp:101:11: error: unknown type name 'Exception'; did you mean 'std::exception'?
+        } catch (Exception &e) {
+                 ^~~~~~~~~
+                 std::exception
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/exception:90:29: note: 'std::exception' declared here
+class _LIBCPP_EXCEPTION_ABI exception
+                            ^
+../CartesianTree.cpp:102:3: error: no matching function for call to 'fprintf'
+                fprintf("K is bigger than size of Tree");
+                ^~~~~~~
+/usr/include/stdio.h:244:6: note: candidate function not viable: requires at least 2 arguments, but 1 was provided
+int      fprintf(FILE * __restrict, const char * __restrict, ...) __printflike(2, 3);
+         ^
+2 errors generated.
+make: *** [CartesianTree.o] Error 1
+20:17:27 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+../CartesianTree.cpp:102:3: error: no matching function for call to 'fprintf'
+                fprintf("K is bigger than size of Tree");
+                ^~~~~~~
+/usr/include/stdio.h:244:6: note: candidate function not viable: requires at least 2 arguments, but 1 was provided
+int      fprintf(FILE * __restrict, const char * __restrict, ...) __printflike(2, 3);
+         ^
+1 error generated.
+make: *** [CartesianTree.o] Error 1
+20:17:40 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+../CartesianTree.cpp:104:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+1 warning generated.
+Finished building: ../CartesianTree.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+20:17:41 **** Incremental Build of configuration Debug for project FenwickTree ****
+make all 
+make: Nothing to be done for `all'.
+20:17:41 **** Incremental Build of configuration Debug for project SegmentTree ****
+make all 
+make: Nothing to be done for `all'.
+20:17:41 **** Incremental Build of configuration Debug for project SparseTable ****
+make all 
+make: Nothing to be done for `all'.
+20:17:49 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+20:18:38 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+../CartesianTree.cpp:105:3: error: use of undeclared identifier 'n'
+                n = n / 0;
+                ^
+../CartesianTree.cpp:105:7: error: use of undeclared identifier 'n'
+                n = n / 0;
+                    ^
+2 errors generated.
+make: *** [CartesianTree.o] Error 1
+20:18:44 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+../CartesianTree.cpp:105:7: warning: unused variable 'n' [-Wunused-variable]
+                int n = 3 / 0;
+                    ^
+../CartesianTree.cpp:105:13: warning: division by zero is undefined [-Wdivision-by-zero]
+                int n = 3 / 0;
+                          ^ ~
+2 warnings generated.
+Finished building: ../CartesianTree.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+20:18:54 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+20:23:03 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+Finished building: ../CartesianTree.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+20:23:06 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+21:55:11 **** Incremental Build of configuration Debug for project SegmentTree ****
+make all 
+make: Nothing to be done for `all'.
+22:08:03 **** Incremental Build of configuration Debug for project SegmentTree ****
+make all 
+Building file: ../SegmentTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -Wextra -Wconversion -c -fmessage-length=0 -MMD -MP -MF"SegmentTree.d" -MT"SegmentTree.d" -o "SegmentTree.o" "../SegmentTree.cpp"
+../SegmentTree.cpp:186:6: warning: unused variable 'x' [-Wunused-variable]
+        int x = __builtin_popcount(8);
+            ^
+1 warning generated.
+Finished building: ../SegmentTree.cpp
+ 
+Building target: SegmentTree
+Invoking: MacOS X C++ Linker
+g++  -o "SegmentTree"  ./SegmentTree.o   
+Finished building target: SegmentTree
+ 
+22:11:16 **** Incremental Build of configuration Debug for project SegmentTree ****
+make all 
+Building file: ../SegmentTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -Wextra -Wconversion -c -fmessage-length=0 -MMD -MP -MF"SegmentTree.d" -MT"SegmentTree.d" -o "SegmentTree.o" "../SegmentTree.cpp"
+../SegmentTree.cpp:196:2: error: use of undeclared identifier 'cout'; did you mean 'std::cout'?
+        cout << k << endl;
+        ^~~~
+        std::cout
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iostream:50:33: note: 'std::cout' declared here
+extern _LIBCPP_FUNC_VIS ostream cout;
+                                ^
+../SegmentTree.cpp:196:15: error: use of undeclared identifier 'endl'; did you mean 'std::endl'?
+        cout << k << endl;
+                     ^~~~
+                     std::endl
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/ostream:1020:1: note: 'std::endl' declared here
+endl(basic_ostream<_CharT, _Traits>& __os)
+^
+2 errors generated.
+make: *** [SegmentTree.o] Error 1
+22:11:28 **** Incremental Build of configuration Debug for project SegmentTree ****
+make all 
+Building file: ../SegmentTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -Wextra -Wconversion -c -fmessage-length=0 -MMD -MP -MF"SegmentTree.d" -MT"SegmentTree.d" -o "SegmentTree.o" "../SegmentTree.cpp"
+Finished building: ../SegmentTree.cpp
+ 
+Building target: SegmentTree
+Invoking: MacOS X C++ Linker
+g++  -o "SegmentTree"  ./SegmentTree.o   
+Finished building target: SegmentTree
+ 
+22:11:34 **** Incremental Build of configuration Debug for project SegmentTree ****
+make all 
+make: Nothing to be done for `all'.
+22:11:44 **** Incremental Build of configuration Debug for project SegmentTree ****
+make all 
+Building file: ../SegmentTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -Wextra -Wconversion -c -fmessage-length=0 -MMD -MP -MF"SegmentTree.d" -MT"SegmentTree.d" -o "SegmentTree.o" "../SegmentTree.cpp"
+Finished building: ../SegmentTree.cpp
+ 
+Building target: SegmentTree
+Invoking: MacOS X C++ Linker
+g++  -o "SegmentTree"  ./SegmentTree.o   
+Finished building target: SegmentTree
+ 
+22:33:12 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+22:33:29 **** Clean-only build of configuration Debug for project CartesianTree ****
+make clean 
+rm -rf  ./CartesianTree.o  ./CartesianTree.d  CartesianTree
+ 
+22:33:29 **** Clean-only build of configuration Debug for project FenwickTree ****
+make clean 
+rm -rf  ./FenwickTree.o  ./FenwickTree.d  FenwickTree
+ 
+22:33:29 **** Clean-only build of configuration Debug for project SegmentTree ****
+make clean 
+rm -rf  ./SegmentTree.o  ./SegmentTree.d  SegmentTree
+ 
+22:33:29 **** Clean-only build of configuration Debug for project SparseTable ****
+make clean 
+rm -rf  ./SparseTable.o  ./SparseTable.d  SparseTable
+ 
+22:33:32 **** Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+Finished building: ../CartesianTree.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+22:33:33 **** Build of configuration Debug for project FenwickTree ****
+make all 
+Building file: ../FenwickTree.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"FenwickTree.d" -MT"FenwickTree.d" -o "FenwickTree.o" "../FenwickTree.cpp"
+Finished building: ../FenwickTree.cpp
+ 
+Building target: FenwickTree
+Invoking: MacOS X C++ Linker
+g++  -o "FenwickTree"  ./FenwickTree.o   
+Finished building target: FenwickTree
+ 
+22:33:34 **** Build of configuration Debug for project SegmentTree ****
+make all 
+Building file: ../SegmentTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -Wextra -Wconversion -c -fmessage-length=0 -MMD -MP -MF"SegmentTree.d" -MT"SegmentTree.d" -o "SegmentTree.o" "../SegmentTree.cpp"
+Finished building: ../SegmentTree.cpp
+ 
+Building target: SegmentTree
+Invoking: MacOS X C++ Linker
+g++  -o "SegmentTree"  ./SegmentTree.o   
+Finished building target: SegmentTree
+ 
+22:33:35 **** Build of configuration Debug for project SparseTable ****
+make all 
+Building file: ../SparseTable.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"SparseTable.d" -MT"SparseTable.d" -o "SparseTable.o" "../SparseTable.cpp"
+Finished building: ../SparseTable.cpp
+ 
+Building target: SparseTable
+Invoking: MacOS X C++ Linker
+g++  -o "SparseTable"  ./SparseTable.o   
+Finished building target: SparseTable
+ 
+22:33:43 **** Clean-only build of configuration Debug for project CartesianTree ****
+make clean 
+rm -rf  ./CartesianTree.o  ./CartesianTree.d  CartesianTree
+ 
+22:33:43 **** Clean-only build of configuration Debug for project FenwickTree ****
+make clean 
+rm -rf  ./FenwickTree.o  ./FenwickTree.d  FenwickTree
+ 
+22:33:43 **** Clean-only build of configuration Debug for project SegmentTree ****
+make clean 
+rm -rf  ./SegmentTree.o  ./SegmentTree.d  SegmentTree
+ 
+22:33:43 **** Clean-only build of configuration Debug for project SparseTable ****
+make clean 
+rm -rf  ./SparseTable.o  ./SparseTable.d  SparseTable
+ 

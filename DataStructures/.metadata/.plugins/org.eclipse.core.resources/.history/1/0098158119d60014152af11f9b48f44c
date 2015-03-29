@@ -1,0 +1,237 @@
+/*
+ * SegmentTree.cpp
+ *
+ * Min, Max, Sum, Update, Update on Sequence
+ * Requests:
+ * 0 <= l < r <= n
+ *
+ *  Created on: Mar 29, 2015
+ *      Author: dima
+ */
+
+#include <bits/stdc++.h>
+
+const int INF = 1234567890;
+const int N = int(1e5);
+
+int a[N];
+
+struct Node {
+	int L, R;
+	Node *l, *r;
+	int val;
+
+	// keys : sum, minimum, maximum
+	int sum, minKey, maxKey;
+
+	// update on sequence
+	int block;
+
+	Node() :
+		L(-1), R(-1), l(nullptr), r(nullptr), val(0), sum(0), minKey(INF), maxKey(-INF), block(-INF) {};
+
+	Node(int L, int R) : Node() {
+		this->L = L;
+		this->R = R;
+	};
+
+	Node(int L, int R, int val) : Node(L, R) {
+		this->val = val;
+		sum = val;
+		minKey = val;
+		maxKey = val;
+	}
+
+	Node(Node *l, Node *r) : Node() {
+		this->l = l;
+		this->r = r;
+		L = l->L;
+		R = r->R;
+		sum = l->sum + r->sum;
+		minKey = std::min(l->minKey, r->minKey);
+		maxKey = std::max(l->maxKey, r->maxKey);
+	}
+};
+
+Node *buildTree(int L, int R) {
+	if (R - L == 1) return new Node(L, R, a[L]);
+	int M = (L + R) >> 1;
+	return new Node(buildTree(L, M), buildTree(M, R));
+}
+
+/*
+ * Help func-s
+ */
+
+void setVal(Node *node, int val) {
+	if (!node) return;
+	int L = node->L;
+	int R = node->R;
+	node->val = val;
+	node->sum = (R - L) * val;
+	node->minKey = val;
+	node->maxKey = val;
+	node->block = val;
+}
+
+void push(Node *node) {
+	if (!node) return;
+	if (node->block != -INF) {
+		setVal(node->l, node->block);
+		setVal(node->r, node->block);
+		node->block = -INF;
+	}
+}
+
+int getSum(Node *node) {
+	return node ? node->sum : 0;
+}
+
+int getMinKey(Node *node) {
+	return node ? node->minKey : INF;
+}
+
+int getMaxKey(Node *node) {
+	return node ? node->maxKey : -INF;
+}
+
+void relax(Node *node) {
+	if (!node) return;
+	node->sum = getSum(node->l) + getSum(node->r);
+	node->minKey = std::min(getMinKey(node->l), getMinKey(node->r));
+	node->maxKey = std::max(getMaxKey(node->l), getMaxKey(node->r));
+}
+
+/*
+ * Update
+ */
+
+void updateKey(Node *node, int pos, int val) {
+	if (node->R - node->L == 1) {
+		setVal(node, val);
+		return;
+	}
+
+	push(node);
+
+	if (pos < node->l->R) {
+		updateKey(node->l, pos, val);
+	} else {
+		updateKey(node->r, pos, val);
+	}
+
+	relax(node);
+}
+
+void updateKeySeq(Node *node, int L, int R, int val) {
+	if (node->R <= L || R <= node->L) {
+		return;
+	}
+
+	if (L <= node->L && node->R <= R) {
+		setVal(node, val);
+		return;
+	}
+
+	push(node);
+
+	updateKeySeq(node->l, L, R, val);
+	updateKeySeq(node->r, L, R, val);
+
+	relax(node);
+}
+
+/*
+ * Get
+ */
+
+int getSum(Node *node, int L, int R) {
+	if (node->R <= L || R <= node->L) {
+		return 0;
+	}
+
+	if (L <= node->L && node->R <= R) {
+		return node->sum;
+	}
+
+	push(node);
+
+	return getSum(node->l, L, R) + getSum(node->r, L, R);
+}
+
+int getMinKey(Node *node, int L, int R) {
+	if (node->R <= L || R <= node->L) {
+		return INF;
+	}
+
+	if (L <= node->L && node->R <= R) {
+		return node->minKey;
+	}
+
+	push(node);
+
+	return std::min(getMinKey(node->l, L, R), getMinKey(node->r, L, R));
+}
+
+int getMaxKey(Node *node, int L, int R) {
+	if (node->R <= L || R <= node->L) {
+		return -INF;
+	}
+
+	if (L <= node->L && node->R <= R) {
+		return node->maxKey;
+	}
+
+	push(node);
+
+	return std::max(getMaxKey(node->l, L, R), getMaxKey(node->r, L, R));
+}
+
+int main() {
+	int n;
+	scanf("%d", &n);
+
+	for (int i = 0; i < n; i++) {
+		scanf("%d", a + i);
+	}
+
+	Node *root = buildTree(0, n);
+
+	int q;
+	scanf("%d", &q);
+
+	for (int i = 0; i < q; i++) {
+		std::string request;
+		std::cin >> request;
+
+		if (request == "set") {
+			int pos, val;
+			scanf("%d%d", &pos, &val);
+
+			updateKey(root, pos - 1, val);
+		} else if (request == "setOnSeq") {
+			int l, r, val;
+			scanf("%d%d%d", &l, &r, &val);
+
+			updateKeySeq(root, l - 1, r, val);
+		} else if (request == "sum") {
+			int l, r;
+			scanf("%d%d", &l, &r);
+
+			int sumReq = getSum(root, l - 1, r);
+			printf("Sum on [%d..%d] = %d\n", l, r, sumReq);
+		} else if (request == "min") {
+			int l, r;
+			scanf("%d%d", &l, &r);
+
+			int minReq = getMinKey(root, l - 1, r);
+			printf("Minimum on [%d..%d] = %d\n", l, r, minReq);
+		} else if (request == "max") {
+			int l, r;
+			scanf("%d%d", &l, &r);
+
+			int maxReq = getMaxKey(root, l - 1, r);
+			printf("Maximum on [%d..%d] = %d\n", l, r, maxReq);
+		}
+	}
+}

@@ -1,0 +1,15 @@
+22:11:44 **** Incremental Build of configuration Debug for project SegmentTree ****
+make all 
+Building file: ../SegmentTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -Wextra -Wconversion -c -fmessage-length=0 -MMD -MP -MF"SegmentTree.d" -MT"SegmentTree.d" -o "SegmentTree.o" "../SegmentTree.cpp"
+Finished building: ../SegmentTree.cpp
+ 
+Building target: SegmentTree
+Invoking: MacOS X C++ Linker
+g++  -o "SegmentTree"  ./SegmentTree.o   
+Finished building target: SegmentTree
+ 
+
+22:11:45 Build Finished (took 966ms)
+
