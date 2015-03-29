@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;CartesianTree/CartesianTree&apos; to &apos;CartesianTree.cpp&apos;" description="Rename resource &apos;CartesianTree&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="CartesianTree" name="CartesianTree.cpp" stamp="1427636366203" updateReferences="true"/>
-</session>
