@@ -1,0 +1,7 @@
+22:33:43 **** Clean-only build of configuration Debug for project SparseTable ****
+make clean 
+rm -rf  ./SparseTable.o  ./SparseTable.d  SparseTable
+ 
+
+22:33:43 Build Finished (took 69ms)
+

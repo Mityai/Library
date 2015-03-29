@@ -1,0 +1,133 @@
+/*
+ * CartesianTree.cpp
+ *
+ * Ordered Treap
+ * Merge, Split, Find, Insert, Delete, K-th
+ *
+ *  Created on: Mar 29, 2015
+ *      Author: dima
+ */
+
+#include <bits/stdc++.h>
+
+struct Node {
+	Node *l, *r;
+	int key, prior;
+	int sz;
+
+	Node() :
+		l(nullptr), r(nullptr), key(0), prior(rand()), sz(1) {};
+
+	Node(int key) : Node() {
+		this->key = key;
+	}
+};
+
+int getSize(Node *node) {
+	return node ? node->sz : 0;
+}
+
+void relax(Node *node) {
+	if (!node) return;
+	node->sz = 1 + getSize(node->l) + getSize(node->r);
+}
+
+Node *merge(Node *left, Node *right) {
+	if (!left) return right;
+	if (!right) return left;
+
+	if (left->prior > right->prior) {
+		left->r = merge(left->r, right);
+		relax(left);
+		return left;
+	} else {
+		right->l = merge(left, right->l);
+		relax(right);
+		return right;
+	}
+}
+
+void split(Node *node, int key, Node *&left, Node *&right) {
+	if (!node) {
+		left = right = nullptr;
+		return;
+	}
+
+	if (node->key <= key) {
+		split(node->r, key, node->r, right);
+		left = node;
+		relax(left);
+	} else {
+		split(node->l, key, left, node->l);
+		right = node;
+		relax(right);
+	}
+}
+
+void insert(Node *&root, int x) {
+	Node *A, *B;
+	split(root, x, A, B);
+	root = merge(A, new Node(x));
+	root = merge(root, B);
+}
+
+void erase(Node *&root, int x) {
+	Node *A, *T, *B;
+	split(root, x - 1, A, B);
+	split(B, x, T, B);
+	root = merge(A, B);
+}
+
+bool find(Node *node, int key) {
+	Node *A, *B, *C;
+	split(node, key - 1, A, B);
+	split(B, key, B, C);
+	node = merge(A, B);
+	node = merge(node, C);
+	return B != nullptr;
+}
+
+int findKth(Node *node, int k) {
+	try {
+		if (getSize(node->l) + 1 == k) {
+			return node->key;
+		}
+
+		if (getSize(node->l) > k) {
+			return findKth(node->l, k);
+		}
+
+		return findKth(node->r, k - getSize(node->l) - 1);
+	} catch (Exception &e) {
+		fprintf("K is bigger than size of Tree");
+	}
+}
+
+int main() {
+	srand(time(nullptr));
+
+	Node *root = nullptr;
+
+	int q;
+	scanf("%d", &q);
+
+	for (int i = 0; i < q; i++) {
+		std::string request;
+		std::cin >> request;
+
+		int x;
+		scanf("%d", &x);
+
+		if (request == "insert") {
+			if (!find(root, x)) {
+				insert(root, x);
+			}
+		} else if (request == "delete") {
+			erase(root, x);
+		} else if (request == "exists") {
+			find(root, x) ? puts("true") : puts("false");
+		} else if (request == "kth") {
+			printf("%d\n", findKth(root, x));
+		}
+	}
+}

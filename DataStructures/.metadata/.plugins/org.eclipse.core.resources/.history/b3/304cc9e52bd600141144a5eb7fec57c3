@@ -1,0 +1,97 @@
+/*
+ * CartesianTree.cpp
+ *
+ * Ordered Treap
+ * Merge, Split, Find
+ *
+ *  Created on: Mar 29, 2015
+ *      Author: dima
+ */
+
+#include <bits/stdc++.h>
+
+struct Node {
+	Node *l, *r;
+	int key, prior;
+
+	Node() :
+		l(nullptr), r(nullptr), key(0), prior(rand()) {};
+
+	Node(int key) : Node() {
+		this->key = key;
+	}
+};
+
+
+Node *merge(Node *left, Node *right) {
+	if (!left) return right;
+	if (!right) return left;
+
+	if (left->prior > right->prior) {
+		left->r = merge(left->r, right);
+		return left;
+	} else {
+		right->l = merge(left, right->l);
+		return right;
+	}
+}
+
+void split(Node *node, int key, Node *&left, Node *&right) {
+	if (!node) {
+		left = right = nullptr;
+		return;
+	}
+
+	if (node->key <= key) {
+		split(node->r, key, node->r, right);
+		left = node;
+	} else {
+		split(node->l, key, left, node->l);
+		right = node;
+	}
+}
+
+void insert(Node *&root, int x) {
+	Node *A, *B;
+	split(root, x, A, B);
+	root = merge(A, new Node(x));
+	root = merge(root, B);
+}
+
+void erase(Node *&root, int x) {
+	Node *A, *T, *B;
+	split(root, x - 1, A, B);
+	split(B, x, T, B);
+	root = merge(A, B);
+}
+
+bool find(Node *node, int key) {
+	Node *A, *B, *C;
+	split(node, key - 1, A, B);
+	split(B, key, B, C);
+	node = merge(A, B);
+	node = merge(node, C);
+	return B != nullptr;
+}
+
+int main() {
+	srand(time(nullptr));
+
+	Node *root = nullptr;
+
+	std::string request;
+	while (std::cin >> request) {
+		int x;
+		scanf("%d", &x);
+
+		if (request == "insert") {
+			if (!find(root, x)) {
+				insert(root, x);
+			}
+		} else if (request == "delete") {
+			erase(root, x);
+		} else if (request == "exists") {
+			find(root, x) ? puts("true") : puts("false");
+		}
+	}
+}

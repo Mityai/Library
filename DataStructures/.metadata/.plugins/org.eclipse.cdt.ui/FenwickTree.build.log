@@ -1,0 +1,7 @@
+22:33:43 **** Clean-only build of configuration Debug for project FenwickTree ****
+make clean 
+rm -rf  ./FenwickTree.o  ./FenwickTree.d  FenwickTree
+ 
+
+22:33:43 Build Finished (took 78ms)
+
