@@ -23,8 +23,6 @@ struct Node {
 
 	// keys : sum, minimum, maximum
 	int sum, minKey, maxKey;
-
-	// update on sequence
 	int block;
 
 	Node() :
