@@ -3,6 +3,10 @@
 	<item value="Default C++ source template" key="LastUsedSourceTemplate"/>
 	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration">
 	</section>
+	<section name="PDOMSearchPage">
+	</section>
 	<section name="completion_proposal_size">
+		<item value="165" key="contextSelector.size.y"/>
+		<item value="315" key="contextSelector.size.x"/>
 	</section>
 </section>

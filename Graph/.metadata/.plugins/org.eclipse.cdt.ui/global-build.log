@@ -43,3 +43,436 @@ Finished building target: TopSort
 23:10:18 **** Incremental Build of configuration Debug for project TopSort ****
 make all 
 make: Nothing to be done for `all'.
+23:44:17 **** Build of configuration Debug for project StronglyConnectedComponents ****
+make all 
+Building file: ../StronglyConnectedComponents.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"StronglyConnectedComponents.d" -MT"StronglyConnectedComponents.d" -o "StronglyConnectedComponents.o" "../StronglyConnectedComponents.cpp"
+Finished building: ../StronglyConnectedComponents.cpp
+ 
+Building target: StronglyConnectedComponents
+Invoking: MacOS X C++ Linker
+g++  -o "StronglyConnectedComponents"  ./StronglyConnectedComponents.o   
+Finished building target: StronglyConnectedComponents
+ 
+23:44:20 **** Build of configuration Debug for project TopSort ****
+make all 
+make: Nothing to be done for `all'.
+23:48:04 **** Incremental Build of configuration Debug for project StronglyConnectedComponents ****
+make all 
+Building file: ../StronglyConnectedComponents.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"StronglyConnectedComponents.d" -MT"StronglyConnectedComponents.d" -o "StronglyConnectedComponents.o" "../StronglyConnectedComponents.cpp"
+Finished building: ../StronglyConnectedComponents.cpp
+ 
+Building target: StronglyConnectedComponents
+Invoking: MacOS X C++ Linker
+g++  -o "StronglyConnectedComponents"  ./StronglyConnectedComponents.o   
+Finished building target: StronglyConnectedComponents
+ 
+23:48:05 **** Incremental Build of configuration Debug for project TopSort ****
+make all 
+make: Nothing to be done for `all'.
+23:51:40 **** Incremental Build of configuration Debug for project StronglyConnectedComponents ****
+make all 
+Building file: ../StronglyConnectedComponents.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"StronglyConnectedComponents.d" -MT"StronglyConnectedComponents.d" -o "StronglyConnectedComponents.o" "../StronglyConnectedComponents.cpp"
+Finished building: ../StronglyConnectedComponents.cpp
+ 
+Building target: StronglyConnectedComponents
+Invoking: MacOS X C++ Linker
+g++  -o "StronglyConnectedComponents"  ./StronglyConnectedComponents.o   
+Finished building target: StronglyConnectedComponents
+ 
+23:51:41 **** Incremental Build of configuration Debug for project TopSort ****
+make all 
+make: Nothing to be done for `all'.
+23:54:21 **** Incremental Build of configuration Debug for project StronglyConnectedComponents ****
+make all 
+Building file: ../StronglyConnectedComponents.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"StronglyConnectedComponents.d" -MT"StronglyConnectedComponents.d" -o "StronglyConnectedComponents.o" "../StronglyConnectedComponents.cpp"
+Finished building: ../StronglyConnectedComponents.cpp
+ 
+Building target: StronglyConnectedComponents
+Invoking: MacOS X C++ Linker
+g++  -o "StronglyConnectedComponents"  ./StronglyConnectedComponents.o   
+Finished building target: StronglyConnectedComponents
+ 
+23:54:22 **** Incremental Build of configuration Debug for project TopSort ****
+make all 
+make: Nothing to be done for `all'.
+23:54:24 **** Incremental Build of configuration Debug for project StronglyConnectedComponents ****
+make all 
+make: Nothing to be done for `all'.
+23:54:47 **** Incremental Build of configuration Debug for project StronglyConnectedComponents ****
+make all 
+Building file: ../StronglyConnectedComponents.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"StronglyConnectedComponents.d" -MT"StronglyConnectedComponents.d" -o "StronglyConnectedComponents.o" "../StronglyConnectedComponents.cpp"
+Finished building: ../StronglyConnectedComponents.cpp
+ 
+Building target: StronglyConnectedComponents
+Invoking: MacOS X C++ Linker
+g++  -o "StronglyConnectedComponents"  ./StronglyConnectedComponents.o   
+Finished building target: StronglyConnectedComponents
+ 
+23:56:08 **** Incremental Build of configuration Debug for project StronglyConnectedComponents ****
+make all 
+Building file: ../StronglyConnectedComponents.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"StronglyConnectedComponents.d" -MT"StronglyConnectedComponents.d" -o "StronglyConnectedComponents.o" "../StronglyConnectedComponents.cpp"
+Finished building: ../StronglyConnectedComponents.cpp
+ 
+Building target: StronglyConnectedComponents
+Invoking: MacOS X C++ Linker
+g++  -o "StronglyConnectedComponents"  ./StronglyConnectedComponents.o   
+Finished building target: StronglyConnectedComponents
+ 
+23:56:32 **** Incremental Build of configuration Debug for project StronglyConnectedComponents ****
+make all 
+Building file: ../StronglyConnectedComponents.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"StronglyConnectedComponents.d" -MT"StronglyConnectedComponents.d" -o "StronglyConnectedComponents.o" "../StronglyConnectedComponents.cpp"
+Finished building: ../StronglyConnectedComponents.cpp
+ 
+Building target: StronglyConnectedComponents
+Invoking: MacOS X C++ Linker
+g++  -o "StronglyConnectedComponents"  ./StronglyConnectedComponents.o   
+Finished building target: StronglyConnectedComponents
+ 
+23:57:20 **** Incremental Build of configuration Debug for project StronglyConnectedComponents ****
+make all 
+Building file: ../StronglyConnectedComponents.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"StronglyConnectedComponents.d" -MT"StronglyConnectedComponents.d" -o "StronglyConnectedComponents.o" "../StronglyConnectedComponents.cpp"
+Finished building: ../StronglyConnectedComponents.cpp
+ 
+Building target: StronglyConnectedComponents
+Invoking: MacOS X C++ Linker
+g++  -o "StronglyConnectedComponents"  ./StronglyConnectedComponents.o   
+Finished building target: StronglyConnectedComponents
+ 
+23:57:21 **** Incremental Build of configuration Debug for project TopSort ****
+make all 
+make: Nothing to be done for `all'.
+00:00:57 **** Incremental Build of configuration Debug for project StronglyConnectedComponents ****
+make all 
+Building file: ../StronglyConnectedComponents.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"StronglyConnectedComponents.d" -MT"StronglyConnectedComponents.d" -o "StronglyConnectedComponents.o" "../StronglyConnectedComponents.cpp"
+Finished building: ../StronglyConnectedComponents.cpp
+ 
+Building target: StronglyConnectedComponents
+Invoking: MacOS X C++ Linker
+g++  -o "StronglyConnectedComponents"  ./StronglyConnectedComponents.o   
+Finished building target: StronglyConnectedComponents
+ 
+00:00:58 **** Incremental Build of configuration Debug for project TopSort ****
+make all 
+make: Nothing to be done for `all'.
+00:02:01 **** Incremental Build of configuration Debug for project StronglyConnectedComponents ****
+make all 
+Building file: ../StronglyConnectedComponents.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"StronglyConnectedComponents.d" -MT"StronglyConnectedComponents.d" -o "StronglyConnectedComponents.o" "../StronglyConnectedComponents.cpp"
+Finished building: ../StronglyConnectedComponents.cpp
+ 
+Building target: StronglyConnectedComponents
+Invoking: MacOS X C++ Linker
+g++  -o "StronglyConnectedComponents"  ./StronglyConnectedComponents.o   
+Finished building target: StronglyConnectedComponents
+ 
+00:02:02 **** Incremental Build of configuration Debug for project TopSort ****
+make all 
+make: Nothing to be done for `all'.
+00:04:09 **** Incremental Build of configuration Debug for project StronglyConnectedComponents ****
+make all 
+Building file: ../StronglyConnectedComponents.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"StronglyConnectedComponents.d" -MT"StronglyConnectedComponents.d" -o "StronglyConnectedComponents.o" "../StronglyConnectedComponents.cpp"
+../StronglyConnectedComponents.cpp:81:11: error: no template named 'pair'; did you mean 'std::pair'?
+        std::set<pair<int, int>> ans;
+                 ^~~~
+                 std::pair
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/utility:248:30: note: 'std::pair' declared here
+struct _LIBCPP_TYPE_VIS_ONLY pair
+                             ^
+../StronglyConnectedComponents.cpp:85:7: error: cannot increment value of type 'std::set<pair<int, int> >'
+                        ans++;
+                        ~~~^
+../StronglyConnectedComponents.cpp:88:17: error: cannot pass non-trivial object of type 'std::set<pair<int, int> >' to variadic function; expected type from format string was 'int' [-Wnon-pod-varargs]
+        printf("%d\n", ans);
+                ~~     ^~~
+3 errors generated.
+make: *** [StronglyConnectedComponents.o] Error 1
+00:04:10 **** Incremental Build of configuration Debug for project TopSort ****
+make all 
+make: Nothing to be done for `all'.
+00:04:45 **** Incremental Build of configuration Debug for project StronglyConnectedComponents ****
+make all 
+Building file: ../StronglyConnectedComponents.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"StronglyConnectedComponents.d" -MT"StronglyConnectedComponents.d" -o "StronglyConnectedComponents.o" "../StronglyConnectedComponents.cpp"
+../StronglyConnectedComponents.cpp:88:17: error: cannot convert 'std::set<std::pair<int, int> >' to 'int' without a conversion operator
+        printf("%d\n", (int)ans,size());
+                       ^~~~~~~~
+1 error generated.
+make: *** [StronglyConnectedComponents.o] Error 1
+00:04:46 **** Incremental Build of configuration Debug for project TopSort ****
+make all 
+make: Nothing to be done for `all'.
+00:04:53 **** Incremental Build of configuration Debug for project StronglyConnectedComponents ****
+make all 
+Building file: ../StronglyConnectedComponents.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"StronglyConnectedComponents.d" -MT"StronglyConnectedComponents.d" -o "StronglyConnectedComponents.o" "../StronglyConnectedComponents.cpp"
+../StronglyConnectedComponents.cpp:88:17: error: cannot convert 'std::set<std::pair<int, int> >' to 'int' without a conversion operator
+        printf("%d\n", (int)ans,size());
+                       ^~~~~~~~
+1 error generated.
+make: *** [StronglyConnectedComponents.o] Error 1
+00:04:54 **** Incremental Build of configuration Debug for project TopSort ****
+make all 
+make: Nothing to be done for `all'.
+00:05:07 **** Incremental Build of configuration Debug for project StronglyConnectedComponents ****
+make all 
+Building file: ../StronglyConnectedComponents.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"StronglyConnectedComponents.d" -MT"StronglyConnectedComponents.d" -o "StronglyConnectedComponents.o" "../StronglyConnectedComponents.cpp"
+../StronglyConnectedComponents.cpp:89:17: error: cannot convert 'std::set<std::pair<int, int> >' to 'int' without a conversion operator
+        printf("%d\n", (int)ans,size());
+                       ^~~~~~~~
+1 error generated.
+make: *** [StronglyConnectedComponents.o] Error 1
+00:05:49 **** Incremental Build of configuration Debug for project StronglyConnectedComponents ****
+make all 
+Building file: ../StronglyConnectedComponents.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"StronglyConnectedComponents.d" -MT"StronglyConnectedComponents.d" -o "StronglyConnectedComponents.o" "../StronglyConnectedComponents.cpp"
+In file included from ../StronglyConnectedComponents.cpp:8:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/bits/stdc++.h:41:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/cmath:302:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/type_traits:922:38: error: implicit instantiation of undefined template 'std::__1::hash<std::__1::pair<int, int> >'
+    : public integral_constant<bool, __is_empty(_Tp)> {};
+                                     ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/memory:1908:40: note: in instantiation of template class 'std::__1::is_empty<std::__1::hash<std::__1::pair<int, int> > >' requested here
+                                bool = is_empty<_T2>::value
+                                       ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/memory:1930:44: note: in instantiation of default argument for '__libcpp_compressed_pair_switch<unsigned long, std::__1::hash<std::__1::pair<int, int> >, false, false>' required here
+template <class _T1, class _T2, unsigned = __libcpp_compressed_pair_switch<_T1, _T2>::value>
+                                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/memory:2298:15: note: in instantiation of default argument for '__libcpp_compressed_pair_imp<unsigned long, std::__1::hash<std::__1::pair<int, int> > >' required here
+    : private __libcpp_compressed_pair_imp<_T1, _T2>
+              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__hash_table:819:55: note: in instantiation of template class 'std::__1::__compressed_pair<unsigned long, std::__1::hash<std::__1::pair<int, int> > >' requested here
+    __compressed_pair<size_type, hasher>              __p2_;
+                                                      ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/unordered_set:353:13: note: in instantiation of template class 'std::__1::__hash_table<std::__1::pair<int, int>, std::__1::hash<std::__1::pair<int, int> >, std::__1::equal_to<std::__1::pair<int, int> >, std::__1::allocator<std::__1::pair<int, int> > >' requested here
+    __table __table_;
+            ^
+../StronglyConnectedComponents.cpp:81:42: note: in instantiation of template class 'std::__1::unordered_set<std::__1::pair<int, int>, std::__1::hash<std::__1::pair<int, int> >, std::__1::equal_to<std::__1::pair<int, int> >, std::__1::allocator<std::__1::pair<int, int> > >' requested here
+        std::unordered_set<std::pair<int, int>> ans;
+                                                ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/typeindex:90:51: note: template is declared here
+template <class _Tp> struct _LIBCPP_TYPE_VIS_ONLY hash;
+                                                  ^
+In file included from ../StronglyConnectedComponents.cpp:8:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/bits/stdc++.h:52:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/ccomplex:21:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/complex:247:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/sstream:174:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/ostream:131:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/ios:216:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__locale:15:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/string:439:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/algorithm:627:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/memory:1908:55: error: no member named 'value' in 'std::__1::is_empty<std::__1::hash<std::__1::pair<int, int> > >'
+                                bool = is_empty<_T2>::value
+                                       ~~~~~~~~~~~~~~~^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/memory:1930:44: note: in instantiation of default argument for '__libcpp_compressed_pair_switch<unsigned long, std::__1::hash<std::__1::pair<int, int> >, false, false>' required here
+template <class _T1, class _T2, unsigned = __libcpp_compressed_pair_switch<_T1, _T2>::value>
+                                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/memory:2300:13: note: in instantiation of default argument for '__libcpp_compressed_pair_imp<unsigned long, std::__1::hash<std::__1::pair<int, int> > >' required here
+    typedef __libcpp_compressed_pair_imp<_T1, _T2> base;
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__hash_table:819:55: note: in instantiation of template class 'std::__1::__compressed_pair<unsigned long, std::__1::hash<std::__1::pair<int, int> > >' requested here
+    __compressed_pair<size_type, hasher>              __p2_;
+                                                      ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/unordered_set:353:13: note: in instantiation of template class 'std::__1::__hash_table<std::__1::pair<int, int>, std::__1::hash<std::__1::pair<int, int> >, std::__1::equal_to<std::__1::pair<int, int> >, std::__1::allocator<std::__1::pair<int, int> > >' requested here
+    __table __table_;
+            ^
+../StronglyConnectedComponents.cpp:81:42: note: in instantiation of template class 'std::__1::unordered_set<std::__1::pair<int, int>, std::__1::hash<std::__1::pair<int, int> >, std::__1::equal_to<std::__1::pair<int, int> >, std::__1::allocator<std::__1::pair<int, int> > >' requested here
+        std::unordered_set<std::pair<int, int>> ans;
+                                                ^
+In file included from ../StronglyConnectedComponents.cpp:8:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/bits/stdc++.h:52:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/ccomplex:21:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/complex:247:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/sstream:174:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/ostream:131:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/ios:216:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__locale:15:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/string:439:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/algorithm:627:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/memory:2314:40: error: multiple overloads of '__compressed_pair' instantiate to the same signature 'void (_T2_param)'
+    _LIBCPP_INLINE_VISIBILITY explicit __compressed_pair(_T2_param __t2)
+                                       ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__hash_table:819:55: note: in instantiation of template class 'std::__1::__compressed_pair<unsigned long, std::__1::hash<std::__1::pair<int, int> > >' requested here
+    __compressed_pair<size_type, hasher>              __p2_;
+                                                      ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/unordered_set:353:13: note: in instantiation of template class 'std::__1::__hash_table<std::__1::pair<int, int>, std::__1::hash<std::__1::pair<int, int> >, std::__1::equal_to<std::__1::pair<int, int> >, std::__1::allocator<std::__1::pair<int, int> > >' requested here
+    __table __table_;
+            ^
+../StronglyConnectedComponents.cpp:81:42: note: in instantiation of template class 'std::__1::unordered_set<std::__1::pair<int, int>, std::__1::hash<std::__1::pair<int, int> >, std::__1::equal_to<std::__1::pair<int, int> >, std::__1::allocator<std::__1::pair<int, int> > >' requested here
+        std::unordered_set<std::pair<int, int>> ans;
+                                                ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/memory:2312:40: note: previous declaration is here
+    _LIBCPP_INLINE_VISIBILITY explicit __compressed_pair(_T1_param __t1)
+                                       ^
+3 errors generated.
+make: *** [StronglyConnectedComponents.o] Error 1
+00:05:50 **** Incremental Build of configuration Debug for project TopSort ****
+make all 
+make: Nothing to be done for `all'.
+00:05:57 **** Incremental Build of configuration Debug for project StronglyConnectedComponents ****
+make all 
+Building file: ../StronglyConnectedComponents.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"StronglyConnectedComponents.d" -MT"StronglyConnectedComponents.d" -o "StronglyConnectedComponents.o" "../StronglyConnectedComponents.cpp"
+In file included from ../StronglyConnectedComponents.cpp:8:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/bits/stdc++.h:41:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/cmath:302:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/type_traits:922:38: error: implicit instantiation of undefined template 'std::__1::hash<std::__1::pair<int, int> >'
+    : public integral_constant<bool, __is_empty(_Tp)> {};
+                                     ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/memory:1908:40: note: in instantiation of template class 'std::__1::is_empty<std::__1::hash<std::__1::pair<int, int> > >' requested here
+                                bool = is_empty<_T2>::value
+                                       ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/memory:1930:44: note: in instantiation of default argument for '__libcpp_compressed_pair_switch<unsigned long, std::__1::hash<std::__1::pair<int, int> >, false, false>' required here
+template <class _T1, class _T2, unsigned = __libcpp_compressed_pair_switch<_T1, _T2>::value>
+                                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/memory:2298:15: note: in instantiation of default argument for '__libcpp_compressed_pair_imp<unsigned long, std::__1::hash<std::__1::pair<int, int> > >' required here
+    : private __libcpp_compressed_pair_imp<_T1, _T2>
+              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__hash_table:819:55: note: in instantiation of template class 'std::__1::__compressed_pair<unsigned long, std::__1::hash<std::__1::pair<int, int> > >' requested here
+    __compressed_pair<size_type, hasher>              __p2_;
+                                                      ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/unordered_set:353:13: note: in instantiation of template class 'std::__1::__hash_table<std::__1::pair<int, int>, std::__1::hash<std::__1::pair<int, int> >, std::__1::equal_to<std::__1::pair<int, int> >, std::__1::allocator<std::__1::pair<int, int> > >' requested here
+    __table __table_;
+            ^
+../StronglyConnectedComponents.cpp:81:42: note: in instantiation of template class 'std::__1::unordered_set<std::__1::pair<int, int>, std::__1::hash<std::__1::pair<int, int> >, std::__1::equal_to<std::__1::pair<int, int> >, std::__1::allocator<std::__1::pair<int, int> > >' requested here
+        std::unordered_set<std::pair<int, int>> ans;
+                                                ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/typeindex:90:51: note: template is declared here
+template <class _Tp> struct _LIBCPP_TYPE_VIS_ONLY hash;
+                                                  ^
+In file included from ../StronglyConnectedComponents.cpp:8:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/bits/stdc++.h:52:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/ccomplex:21:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/complex:247:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/sstream:174:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/ostream:131:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/ios:216:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__locale:15:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/string:439:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/algorithm:627:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/memory:1908:55: error: no member named 'value' in 'std::__1::is_empty<std::__1::hash<std::__1::pair<int, int> > >'
+                                bool = is_empty<_T2>::value
+                                       ~~~~~~~~~~~~~~~^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/memory:1930:44: note: in instantiation of default argument for '__libcpp_compressed_pair_switch<unsigned long, std::__1::hash<std::__1::pair<int, int> >, false, false>' required here
+template <class _T1, class _T2, unsigned = __libcpp_compressed_pair_switch<_T1, _T2>::value>
+                                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/memory:2300:13: note: in instantiation of default argument for '__libcpp_compressed_pair_imp<unsigned long, std::__1::hash<std::__1::pair<int, int> > >' required here
+    typedef __libcpp_compressed_pair_imp<_T1, _T2> base;
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__hash_table:819:55: note: in instantiation of template class 'std::__1::__compressed_pair<unsigned long, std::__1::hash<std::__1::pair<int, int> > >' requested here
+    __compressed_pair<size_type, hasher>              __p2_;
+                                                      ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/unordered_set:353:13: note: in instantiation of template class 'std::__1::__hash_table<std::__1::pair<int, int>, std::__1::hash<std::__1::pair<int, int> >, std::__1::equal_to<std::__1::pair<int, int> >, std::__1::allocator<std::__1::pair<int, int> > >' requested here
+    __table __table_;
+            ^
+../StronglyConnectedComponents.cpp:81:42: note: in instantiation of template class 'std::__1::unordered_set<std::__1::pair<int, int>, std::__1::hash<std::__1::pair<int, int> >, std::__1::equal_to<std::__1::pair<int, int> >, std::__1::allocator<std::__1::pair<int, int> > >' requested here
+        std::unordered_set<std::pair<int, int>> ans;
+                                                ^
+In file included from ../StronglyConnectedComponents.cpp:8:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/bits/stdc++.h:52:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/ccomplex:21:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/complex:247:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/sstream:174:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/ostream:131:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/ios:216:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__locale:15:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/string:439:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/algorithm:627:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/memory:2314:40: error: multiple overloads of '__compressed_pair' instantiate to the same signature 'void (_T2_param)'
+    _LIBCPP_INLINE_VISIBILITY explicit __compressed_pair(_T2_param __t2)
+                                       ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__hash_table:819:55: note: in instantiation of template class 'std::__1::__compressed_pair<unsigned long, std::__1::hash<std::__1::pair<int, int> > >' requested here
+    __compressed_pair<size_type, hasher>              __p2_;
+                                                      ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/unordered_set:353:13: note: in instantiation of template class 'std::__1::__hash_table<std::__1::pair<int, int>, std::__1::hash<std::__1::pair<int, int> >, std::__1::equal_to<std::__1::pair<int, int> >, std::__1::allocator<std::__1::pair<int, int> > >' requested here
+    __table __table_;
+            ^
+../StronglyConnectedComponents.cpp:81:42: note: in instantiation of template class 'std::__1::unordered_set<std::__1::pair<int, int>, std::__1::hash<std::__1::pair<int, int> >, std::__1::equal_to<std::__1::pair<int, int> >, std::__1::allocator<std::__1::pair<int, int> > >' requested here
+        std::unordered_set<std::pair<int, int>> ans;
+                                                ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/memory:2312:40: note: previous declaration is here
+    _LIBCPP_INLINE_VISIBILITY explicit __compressed_pair(_T1_param __t1)
+                                       ^
+3 errors generated.
+make: *** [StronglyConnectedComponents.o] Error 1
+00:06:22 **** Incremental Build of configuration Debug for project StronglyConnectedComponents ****
+make all 
+Building file: ../StronglyConnectedComponents.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"StronglyConnectedComponents.d" -MT"StronglyConnectedComponents.d" -o "StronglyConnectedComponents.o" "../StronglyConnectedComponents.cpp"
+Finished building: ../StronglyConnectedComponents.cpp
+ 
+Building target: StronglyConnectedComponents
+Invoking: MacOS X C++ Linker
+g++  -o "StronglyConnectedComponents"  ./StronglyConnectedComponents.o   
+Finished building target: StronglyConnectedComponents
+ 
+00:06:24 **** Incremental Build of configuration Debug for project TopSort ****
+make all 
+make: Nothing to be done for `all'.
+00:06:27 **** Incremental Build of configuration Debug for project StronglyConnectedComponents ****
+make all 
+make: Nothing to be done for `all'.
+00:09:07 **** Incremental Build of configuration Debug for project StronglyConnectedComponents ****
+make all 
+Building file: ../StronglyConnectedComponents.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"StronglyConnectedComponents.d" -MT"StronglyConnectedComponents.d" -o "StronglyConnectedComponents.o" "../StronglyConnectedComponents.cpp"
+Finished building: ../StronglyConnectedComponents.cpp
+ 
+Building target: StronglyConnectedComponents
+Invoking: MacOS X C++ Linker
+g++  -o "StronglyConnectedComponents"  ./StronglyConnectedComponents.o   
+Finished building target: StronglyConnectedComponents
+ 
+00:13:32 **** Incremental Build of configuration Debug for project StronglyConnectedComponents ****
+make all 
+Building file: ../StronglyConnectedComponents.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"StronglyConnectedComponents.d" -MT"StronglyConnectedComponents.d" -o "StronglyConnectedComponents.o" "../StronglyConnectedComponents.cpp"
+Finished building: ../StronglyConnectedComponents.cpp
+ 
+Building target: StronglyConnectedComponents
+Invoking: MacOS X C++ Linker
+g++  -o "StronglyConnectedComponents"  ./StronglyConnectedComponents.o   
+Finished building target: StronglyConnectedComponents
+ 
+00:13:35 **** Build of configuration Debug for project TopSort ****
+make all 
+make: Nothing to be done for `all'.
+00:16:51 **** Clean-only build of configuration Debug for project StronglyConnectedComponents ****
+make clean 
+rm -rf  ./StronglyConnectedComponents.o  ./StronglyConnectedComponents.d  StronglyConnectedComponents
+ 
+00:16:51 **** Clean-only build of configuration Debug for project TopSort ****
+make clean 
+rm -rf  ./TopSort.o  ./TopSort.d  TopSort
+ 
