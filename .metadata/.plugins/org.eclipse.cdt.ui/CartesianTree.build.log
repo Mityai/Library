@@ -1,0 +1,15 @@
+15:00:51 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+Finished building: ../CartesianTree.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+
+15:00:52 Build Finished (took 1s.559ms)
+

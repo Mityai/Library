@@ -1,0 +1,6 @@
+16:42:30 **** Incremental Build of configuration Debug for project DisjointSetUnion ****
+make all 
+make: Nothing to be done for `all'.
+
+16:42:30 Build Finished (took 68ms)
+

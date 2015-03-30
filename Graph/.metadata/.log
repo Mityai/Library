@@ -1,0 +1,51 @@
+!SESSION 2015-03-30 23:00:16.765 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -product org.eclipse.epp.package.cpp.product -keyring /Users/dima/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -data /Users/dima/Documents/olympics/Library/Graph -product org.eclipse.epp.package.cpp.product -keyring /Users/dima/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2015-03-30 23:00:22.840
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.wakatime.eclipse.plugin 1 0 2015-03-30 23:00:30.170
+!MESSAGE Initializing WakaTime plugin (https://wakatime.com) v2.0.3
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-03-30 23:01:05.168
+!MESSAGE Indexed 'TopSort' (0 sources, 0 headers) in 0.003 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2015-03-30 23:14:42.157 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/dima/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -keyring /Users/dima/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2015-03-30 23:14:50.082
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.wakatime.eclipse.plugin 1 0 2015-03-30 23:14:59.420
+!MESSAGE Initializing WakaTime plugin (https://wakatime.com) v2.0.3
+
+!ENTRY com.wakatime.eclipse.plugin 1 0 2015-03-30 23:15:00.995
+!MESSAGE Finished initializing WakaTime plugin (https://wakatime.com) v2.0.3
+
+!ENTRY org.eclipse.linuxtools.rpm.ui.editor 2 127 2015-03-30 23:17:07.190
+!MESSAGE Return value of process was non-zero value 127. This may mean output is not accurate.
+!SESSION 2015-03-30 23:20:05.454 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/dima/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -keyring /Users/dima/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2015-03-30 23:20:11.912
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.wakatime.eclipse.plugin 1 0 2015-03-30 23:20:19.714
+!MESSAGE Initializing WakaTime plugin (https://wakatime.com) v2.0.3
+
+!ENTRY com.wakatime.eclipse.plugin 1 0 2015-03-30 23:20:20.660
+!MESSAGE Finished initializing WakaTime plugin (https://wakatime.com) v2.0.3

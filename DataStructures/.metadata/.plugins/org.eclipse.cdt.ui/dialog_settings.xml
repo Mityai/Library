@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<item value="135" key="org.eclipse.cdt.uiformatter_pagemodify_dialog.preferred_x"/>
+	<item value="6" key="org.eclipse.cdt.uiformatter_pagemodify_dialog.last_focus"/>
+	<item value="23" key="org.eclipse.cdt.uiformatter_pagemodify_dialog.preferred_y"/>
+	<item value="0" key="org.eclipse.cdt.uiformatter_page.white_space_tab_page.node"/>
 	<item value="Default C++ source template" key="LastUsedSourceTemplate"/>
+	<item value="true" key="ProjectSelectionDialog.show_all"/>
 	<item value="Default C++ header template" key="LastUsedHeaderTemplate"/>
+	<item value="0" key="org.eclipse.cdt.uiformatter_page.white_space.c_view.inner"/>
+	<item value="-1" key="formatter_page.modify_dialog_tab_page.last_focus_index"/>
+	<item value="1" key="org.eclipse.cdt.uiformatter_page.line_wrapping_tab_page.last_category_index"/>
+	<item value="false" key="org.eclipse.cdt.ui.formatter_page.show_invisible_characters"/>
+	<item value="1115" key="org.eclipse.cdt.uiformatter_pagemodify_dialog.preferred_width"/>
+	<item value="789" key="org.eclipse.cdt.uiformatter_pagemodify_dialog.preferred_height"/>
 	<section name="org.eclipse.cdt.internal.ui.text.QuickOutline">
 		<item value="true" key="org.eclipse.cdt.internal.ui.text.COutlineInformationControlDIALOG_USE_PERSISTED_SIZE"/>
 		<item value="370" key="org.eclipse.cdt.internal.ui.text.COutlineInformationControlDIALOG_Y_ORIGIN"/>

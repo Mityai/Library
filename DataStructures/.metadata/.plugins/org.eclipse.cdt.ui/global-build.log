@@ -1726,3 +1726,226 @@ rm -rf  ./SegmentTree.o  ./SegmentTree.d  SegmentTree
 make clean 
 rm -rf  ./SparseTable.o  ./SparseTable.d  SparseTable
  
+23:08:33 **** Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+Finished building: ../CartesianTree.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+23:08:35 **** Build of configuration Debug for project FenwickTree ****
+make all 
+Building file: ../FenwickTree.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"FenwickTree.d" -MT"FenwickTree.d" -o "FenwickTree.o" "../FenwickTree.cpp"
+Finished building: ../FenwickTree.cpp
+ 
+Building target: FenwickTree
+Invoking: MacOS X C++ Linker
+g++  -o "FenwickTree"  ./FenwickTree.o   
+Finished building target: FenwickTree
+ 
+23:08:35 **** Build of configuration Debug for project SegmentTree ****
+make all 
+Building file: ../SegmentTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -Wextra -Wconversion -c -fmessage-length=0 -MMD -MP -MF"SegmentTree.d" -MT"SegmentTree.d" -o "SegmentTree.o" "../SegmentTree.cpp"
+Finished building: ../SegmentTree.cpp
+ 
+Building target: SegmentTree
+Invoking: MacOS X C++ Linker
+g++  -o "SegmentTree"  ./SegmentTree.o   
+Finished building target: SegmentTree
+ 
+23:08:37 **** Build of configuration Debug for project SparseTable ****
+make all 
+Building file: ../SparseTable.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"SparseTable.d" -MT"SparseTable.d" -o "SparseTable.o" "../SparseTable.cpp"
+Finished building: ../SparseTable.cpp
+ 
+Building target: SparseTable
+Invoking: MacOS X C++ Linker
+g++  -o "SparseTable"  ./SparseTable.o   
+Finished building target: SparseTable
+ 
+23:12:36 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+make: Nothing to be done for `all'.
+23:12:37 **** Incremental Build of configuration Debug for project FenwickTree ****
+make all 
+make: Nothing to be done for `all'.
+23:12:37 **** Incremental Build of configuration Debug for project SegmentTree ****
+make all 
+make: Nothing to be done for `all'.
+23:12:37 **** Incremental Build of configuration Debug for project SparseTable ****
+make all 
+make: Nothing to be done for `all'.
+15:00:51 **** Incremental Build of configuration Debug for project CartesianTree ****
+make all 
+Building file: ../CartesianTree.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTree.d" -MT"CartesianTree.d" -o "CartesianTree.o" "../CartesianTree.cpp"
+Finished building: ../CartesianTree.cpp
+ 
+Building target: CartesianTree
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTree"  ./CartesianTree.o   
+Finished building target: CartesianTree
+ 
+15:20:49 **** Build of configuration Debug for project CartesianTreeImplictKey ****
+make all 
+Building file: ../CartesianTreeImplictKey.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTreeImplictKey.d" -MT"CartesianTreeImplictKey.d" -o "CartesianTreeImplictKey.o" "../CartesianTreeImplictKey.cpp"
+Finished building: ../CartesianTreeImplictKey.cpp
+ 
+Building target: CartesianTreeImplictKey
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTreeImplictKey"  ./CartesianTreeImplictKey.o   
+Undefined symbols for architecture x86_64:
+  "_main", referenced from:
+     implicit entry/start for main executable
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [CartesianTreeImplictKey] Error 1
+15:21:06 **** Incremental Build of configuration Debug for project CartesianTreeImplictKey ****
+make all 
+Building file: ../CartesianTreeImplictKey.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTreeImplictKey.d" -MT"CartesianTreeImplictKey.d" -o "CartesianTreeImplictKey.o" "../CartesianTreeImplictKey.cpp"
+Finished building: ../CartesianTreeImplictKey.cpp
+ 
+Building target: CartesianTreeImplictKey
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTreeImplictKey"  ./CartesianTreeImplictKey.o   
+Finished building target: CartesianTreeImplictKey
+ 
+15:28:12 **** Incremental Build of configuration Debug for project CartesianTreeImplictKey ****
+make all 
+Building file: ../CartesianTreeImplictKey.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTreeImplictKey.d" -MT"CartesianTreeImplictKey.d" -o "CartesianTreeImplictKey.o" "../CartesianTreeImplictKey.cpp"
+Finished building: ../CartesianTreeImplictKey.cpp
+ 
+Building target: CartesianTreeImplictKey
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTreeImplictKey"  ./CartesianTreeImplictKey.o   
+Finished building target: CartesianTreeImplictKey
+ 
+15:28:27 **** Incremental Build of configuration Debug for project CartesianTreeImplictKey ****
+make all 
+make: Nothing to be done for `all'.
+15:30:09 **** Incremental Build of configuration Debug for project CartesianTreeImplictKey ****
+make all 
+make: Nothing to be done for `all'.
+15:30:10 **** Incremental Build of configuration Debug for project CartesianTreeImplictKey ****
+make all 
+make: Nothing to be done for `all'.
+15:32:42 **** Incremental Build of configuration Debug for project CartesianTreeImplictKey ****
+make all 
+Building file: ../CartesianTreeImplictKey.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTreeImplictKey.d" -MT"CartesianTreeImplictKey.d" -o "CartesianTreeImplictKey.o" "../CartesianTreeImplictKey.cpp"
+Finished building: ../CartesianTreeImplictKey.cpp
+ 
+Building target: CartesianTreeImplictKey
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTreeImplictKey"  ./CartesianTreeImplictKey.o   
+Finished building target: CartesianTreeImplictKey
+ 
+15:32:45 **** Incremental Build of configuration Debug for project CartesianTreeImplictKey ****
+make all 
+make: Nothing to be done for `all'.
+15:33:13 **** Incremental Build of configuration Debug for project CartesianTreeImplictKey ****
+make all 
+Building file: ../CartesianTreeImplictKey.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTreeImplictKey.d" -MT"CartesianTreeImplictKey.d" -o "CartesianTreeImplictKey.o" "../CartesianTreeImplictKey.cpp"
+Finished building: ../CartesianTreeImplictKey.cpp
+ 
+Building target: CartesianTreeImplictKey
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTreeImplictKey"  ./CartesianTreeImplictKey.o   
+Finished building target: CartesianTreeImplictKey
+ 
+15:33:16 **** Incremental Build of configuration Debug for project CartesianTreeImplictKey ****
+make all 
+make: Nothing to be done for `all'.
+15:34:29 **** Incremental Build of configuration Debug for project CartesianTreeImplictKey ****
+make all 
+Building file: ../CartesianTreeImplictKey.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTreeImplictKey.d" -MT"CartesianTreeImplictKey.d" -o "CartesianTreeImplictKey.o" "../CartesianTreeImplictKey.cpp"
+Finished building: ../CartesianTreeImplictKey.cpp
+ 
+Building target: CartesianTreeImplictKey
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTreeImplictKey"  ./CartesianTreeImplictKey.o   
+Finished building target: CartesianTreeImplictKey
+ 
+15:34:32 **** Incremental Build of configuration Debug for project CartesianTreeImplictKey ****
+make all 
+make: Nothing to be done for `all'.
+15:34:57 **** Incremental Build of configuration Debug for project CartesianTreeImplictKey ****
+make all 
+make: Nothing to be done for `all'.
+15:36:30 **** Incremental Build of configuration Debug for project CartesianTreeImplictKey ****
+make all 
+Building file: ../CartesianTreeImplictKey.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CartesianTreeImplictKey.d" -MT"CartesianTreeImplictKey.d" -o "CartesianTreeImplictKey.o" "../CartesianTreeImplictKey.cpp"
+Finished building: ../CartesianTreeImplictKey.cpp
+ 
+Building target: CartesianTreeImplictKey
+Invoking: MacOS X C++ Linker
+g++  -o "CartesianTreeImplictKey"  ./CartesianTreeImplictKey.o   
+Finished building target: CartesianTreeImplictKey
+ 
+15:36:32 **** Incremental Build of configuration Debug for project CartesianTreeImplictKey ****
+make all 
+make: Nothing to be done for `all'.
+16:26:17 **** Build of configuration Debug for project DisjointSetUnion ****
+make all 
+Building file: ../DisjointSetUnion.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DisjointSetUnion.d" -MT"DisjointSetUnion.d" -o "DisjointSetUnion.o" "../DisjointSetUnion.cpp"
+../DisjointSetUnion.cpp:18:6: error: declaration of anonymous union must be a definition
+void union(int x, int y) {
+     ^
+../DisjointSetUnion.cpp:29:1: error: expected unqualified-id
+^
+2 errors generated.
+make: *** [DisjointSetUnion.o] Error 1
+16:26:29 **** Incremental Build of configuration Debug for project DisjointSetUnion ****
+make all 
+Building file: ../DisjointSetUnion.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DisjointSetUnion.d" -MT"DisjointSetUnion.d" -o "DisjointSetUnion.o" "../DisjointSetUnion.cpp"
+Finished building: ../DisjointSetUnion.cpp
+ 
+Building target: DisjointSetUnion
+Invoking: MacOS X C++ Linker
+g++  -o "DisjointSetUnion"  ./DisjointSetUnion.o   
+Finished building target: DisjointSetUnion
+ 
+16:42:26 **** Incremental Build of configuration Debug for project DisjointSetUnion ****
+make all 
+Building file: ../DisjointSetUnion.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DisjointSetUnion.d" -MT"DisjointSetUnion.d" -o "DisjointSetUnion.o" "../DisjointSetUnion.cpp"
+Finished building: ../DisjointSetUnion.cpp
+ 
+Building target: DisjointSetUnion
+Invoking: MacOS X C++ Linker
+g++  -o "DisjointSetUnion"  ./DisjointSetUnion.o   
+Finished building target: DisjointSetUnion
+ 
+16:42:30 **** Incremental Build of configuration Debug for project DisjointSetUnion ****
+make all 
+make: Nothing to be done for `all'.

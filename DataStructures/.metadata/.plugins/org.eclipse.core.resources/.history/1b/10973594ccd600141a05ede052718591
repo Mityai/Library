@@ -1,0 +1,12 @@
+/*
+ * CartesianTreeImplictKey.cpp
+ *
+ *  Created on: Mar 30, 2015
+ *      Author: dima
+ */
+
+struct Node {
+	Node *l, *r;
+	int key, prior;
+	int w;
+};

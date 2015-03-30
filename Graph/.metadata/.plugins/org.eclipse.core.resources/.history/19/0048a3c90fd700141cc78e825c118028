@@ -1,0 +1,24 @@
+/*
+ * TopSort.cpp
+ *
+ *  Created on: Mar 30, 2015
+ *      Author: dima
+ */
+
+#include <bits/stdc++.h>
+
+const int N = int(1e5);
+
+std::vector< std::vector<int> > g;
+bool us[N];
+
+void dfs(int v) {
+	us[v] = true;
+	for (int u : g[v]) {
+		if (us[u] == false) {
+			dfs(u);
+		}
+	}
+}
+
+

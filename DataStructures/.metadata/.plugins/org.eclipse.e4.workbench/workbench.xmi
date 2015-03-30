@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_OkS18dWhEeSq5MKhBFqpIQ" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_OkTdANWhEeSq5MKhBFqpIQ" bindingContexts="_OkTdAtWhEeSq5MKhBFqpIQ">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workbench>&#xA;&lt;mruList>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;CartesianTree.cpp&quot; tooltip=&quot;CartesianTree/CartesianTree.cpp&quot;>&#xA;&lt;persistable path=&quot;/CartesianTree/CartesianTree.cpp&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;SegmentTree.cpp&quot; tooltip=&quot;SegmentTree/SegmentTree.cpp&quot;>&#xA;&lt;persistable path=&quot;/SegmentTree/SegmentTree.cpp&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;FenwickTree.cpp&quot; tooltip=&quot;FenwickTree/FenwickTree.cpp&quot;>&#xA;&lt;persistable path=&quot;/FenwickTree/FenwickTree.cpp&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.binaryEditor&quot; name=&quot;bst1.out&quot; tooltip=&quot;CartesianTree/bst1.out&quot;>&#xA;&lt;persistable path=&quot;/CartesianTree/bst1.out&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.make.editor&quot; name=&quot;objects.mk&quot; tooltip=&quot;CartesianTree/Debug/objects.mk&quot;>&#xA;&lt;persistable path=&quot;/CartesianTree/Debug/objects.mk&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.make.editor&quot; name=&quot;sources.mk&quot; tooltip=&quot;CartesianTree/Debug/sources.mk&quot;>&#xA;&lt;persistable path=&quot;/CartesianTree/Debug/sources.mk&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.make.editor&quot; name=&quot;makefile&quot; tooltip=&quot;CartesianTree/Debug/makefile&quot;>&#xA;&lt;persistable path=&quot;/CartesianTree/Debug/makefile&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.binaryEditor&quot; name=&quot;bst1.out&quot; tooltip=&quot;/Users/dima/Documents/olympics/Library/CartesianTree/bst1.out&quot;>&#xA;&lt;persistable uri=&quot;file:/Users/dima/Documents/olympics/Library/CartesianTree/bst1.out&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.binaryEditor&quot; name=&quot;CartesianTree.o&quot; tooltip=&quot;CartesianTree/Debug/CartesianTree.o&quot;>&#xA;&lt;persistable path=&quot;/CartesianTree/Debug/CartesianTree.o&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;bst1.in&quot; tooltip=&quot;CartesianTree/bst1.in&quot;>&#xA;&lt;persistable path=&quot;/CartesianTree/bst1.in&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;CartesianTreeImplictKey.cpp&quot; tooltip=&quot;CartesianTree/CartesianTreeImplictKey.cpp&quot;>&#xA;&lt;persistable path=&quot;/CartesianTree/CartesianTreeImplictKey.cpp&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;&#x414;&#x435;&#x43a;&#x430;&#x440;&#x442;&#x43e;&#x432;&#x43e; &#x43f;&#x43e; &#x43d;&#x435;&#x44f;&#x432;&#x43d;&#x43e;&#x43c;&#x443;. &#x41d;&#x430; &#x441;&#x441;&#x44b;&#x43b;&#x43a;&#x430;&#x445;.cpp&quot; tooltip=&quot;/Users/dima/Documents/olympics/&#x421;&#x431;&#x43e;&#x440;&#x44b; &#x41b;&#x438;&#x446;&#x435;&#x438;&#x306; &#x424;&#x435;&#x432;&#x440;&#x430;&#x43b;&#x44c; &#x422;&#x438;&#x43c;&#x443;&#x440; &#x425;&#x438;&#x441;&#x43c;&#x430;&#x442;&#x443;&#x43b;&#x43b;&#x438;&#x43d;/&#x414;&#x435;&#x43d;&#x44c; 2. &#x421;&#x442;&#x440;&#x443;&#x43a;&#x442;&#x443;&#x440;&#x43a;&#x438;/&#x414;&#x435;&#x43a;&#x430;&#x440;&#x442;&#x43e;&#x432;&#x43e; &#x43f;&#x43e; &#x43d;&#x435;&#x44f;&#x432;&#x43d;&#x43e;&#x43c;&#x443;. &#x41d;&#x430; &#x441;&#x441;&#x44b;&#x43b;&#x43a;&#x430;&#x445;.cpp&quot;>&#xA;&lt;persistable uri=&quot;file:/Users/dima/Documents/olympics/&#x421;&#x431;&#x43e;&#x440;&#x44b;%20&#x41b;&#x438;&#x446;&#x435;&#x438;&#x306;%20&#x424;&#x435;&#x432;&#x440;&#x430;&#x43b;&#x44c;%20&#x422;&#x438;&#x43c;&#x443;&#x440;%20&#x425;&#x438;&#x441;&#x43c;&#x430;&#x442;&#x443;&#x43b;&#x43b;&#x438;&#x43d;/&#x414;&#x435;&#x43d;&#x44c;%202.%20&#x421;&#x442;&#x440;&#x443;&#x43a;&#x442;&#x443;&#x440;&#x43a;&#x438;/&#x414;&#x435;&#x43a;&#x430;&#x440;&#x442;&#x43e;&#x432;&#x43e;%20&#x43f;&#x43e;%20&#x43d;&#x435;&#x44f;&#x432;&#x43d;&#x43e;&#x43c;&#x443;.%20&#x41d;&#x430;%20&#x441;&#x441;&#x44b;&#x43b;&#x43a;&#x430;&#x445;.cpp&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;SparseTable.cpp&quot; tooltip=&quot;SparseTable/SparseTable.cpp&quot;>&#xA;&lt;persistable path=&quot;/SparseTable/SparseTable.cpp&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;main.cpp&quot; tooltip=&quot;/Users/dima/Documents/workspace/main/main.cpp&quot;>&#xA;&lt;persistable uri=&quot;file:/Users/dima/Documents/workspace/main/main.cpp&quot;/>&#xA;&lt;/file>&#xA;&lt;/mruList>&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workbench>&#xA;&lt;mruList>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;FenwickTree.cpp&quot; tooltip=&quot;FenwickTree/FenwickTree.cpp&quot;>&#xA;&lt;persistable path=&quot;/FenwickTree/FenwickTree.cpp&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;DisjointSetUnion.cpp&quot; tooltip=&quot;DisjointSetUnion/DisjointSetUnion.cpp&quot;>&#xA;&lt;persistable path=&quot;/DisjointSetUnion/DisjointSetUnion.cpp&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;CartesianTreeImplictKey.cpp&quot; tooltip=&quot;CartesianTreeImplictKey/CartesianTreeImplictKey.cpp&quot;>&#xA;&lt;persistable path=&quot;/CartesianTreeImplictKey/CartesianTreeImplictKey.cpp&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;CartesianTree.cpp&quot; tooltip=&quot;CartesianTree/CartesianTree.cpp&quot;>&#xA;&lt;persistable path=&quot;/CartesianTree/CartesianTree.cpp&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.cdt.ui.ExternalEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;stdc++.h&quot; tooltip=&quot;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/bits/stdc++.h&quot;>&#xA;&lt;persistable path=&quot;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/bits/stdc++.h&quot; project=&quot;CartesianTreeImplictKey&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;SegmentTree.cpp&quot; tooltip=&quot;SegmentTree/SegmentTree.cpp&quot;>&#xA;&lt;persistable path=&quot;/SegmentTree/SegmentTree.cpp&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;SparseTable.cpp&quot; tooltip=&quot;SparseTable/SparseTable.cpp&quot;>&#xA;&lt;persistable path=&quot;/SparseTable/SparseTable.cpp&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.binaryEditor&quot; name=&quot;bst1.out&quot; tooltip=&quot;CartesianTree/bst1.out&quot;>&#xA;&lt;persistable path=&quot;/CartesianTree/bst1.out&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.make.editor&quot; name=&quot;objects.mk&quot; tooltip=&quot;CartesianTree/Debug/objects.mk&quot;>&#xA;&lt;persistable path=&quot;/CartesianTree/Debug/objects.mk&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.make.editor&quot; name=&quot;sources.mk&quot; tooltip=&quot;CartesianTree/Debug/sources.mk&quot;>&#xA;&lt;persistable path=&quot;/CartesianTree/Debug/sources.mk&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.make.editor&quot; name=&quot;makefile&quot; tooltip=&quot;CartesianTree/Debug/makefile&quot;>&#xA;&lt;persistable path=&quot;/CartesianTree/Debug/makefile&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.binaryEditor&quot; name=&quot;bst1.out&quot; tooltip=&quot;/Users/dima/Documents/olympics/Library/CartesianTree/bst1.out&quot;>&#xA;&lt;persistable uri=&quot;file:/Users/dima/Documents/olympics/Library/CartesianTree/bst1.out&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.binaryEditor&quot; name=&quot;CartesianTree.o&quot; tooltip=&quot;CartesianTree/Debug/CartesianTree.o&quot;>&#xA;&lt;persistable path=&quot;/CartesianTree/Debug/CartesianTree.o&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;bst1.in&quot; tooltip=&quot;CartesianTree/bst1.in&quot;>&#xA;&lt;persistable path=&quot;/CartesianTree/bst1.in&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;CartesianTreeImplictKey.cpp&quot; tooltip=&quot;CartesianTree/CartesianTreeImplictKey.cpp&quot;>&#xA;&lt;persistable path=&quot;/CartesianTree/CartesianTreeImplictKey.cpp&quot;/>&#xA;&lt;/file>&#xA;&lt;/mruList>&#xA;&lt;/workbench>"/>
   <tags>ModelMigrationProcessor.001</tags>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_OkTdANWhEeSq5MKhBFqpIQ" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_PAebodWhEeSq5MKhBFqpIQ" label="%trimmedwindow.label.eclipseSDK" x="314" y="23" width="1440" height="877">
@@ -9,7 +9,6 @@
     <persistedState key="workingSets" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workingSets/>"/>
     <persistedState key="aggregateWorkingSetId" value="Aggregate for window 1427642121658"/>
     <tags>topLevel</tags>
-    <tags>shellMinimized</tags>
     <tags>shellMaximized</tags>
     <children xsi:type="basic:PartSashContainer" xmi:id="_PAebodWhEeSq5MKhBFqpIQ" selectedElement="_PAfCsNWhEeSq5MKhBFqpIQ" horizontal="true">
       <children xsi:type="advanced:PerspectiveStack" xmi:id="_PAfCsNWhEeSq5MKhBFqpIQ" elementId="org.eclipse.ui.ide.perspectivestack" containerData="7500" selectedElement="_PUOeENWhEeSq5MKhBFqpIQ">
@@ -69,15 +68,16 @@
           <tags>persp.actionSet:org.eclipse.debug.ui.profileActionSet</tags>
           <tags>persp.viewSC:org.eclipse.mylyn.tasks.ui.views.tasks</tags>
           <tags>persp.newWizSC:org.eclipse.mylyn.tasks.ui.wizards.new.repository.task</tags>
-          <children xsi:type="basic:PartSashContainer" xmi:id="_PUOeEdWhEeSq5MKhBFqpIQ" selectedElement="_PUOeF9WhEeSq5MKhBFqpIQ" horizontal="true">
-            <children xsi:type="basic:PartStack" xmi:id="_PUOeEtWhEeSq5MKhBFqpIQ" elementId="topLeft" containerData="1555" selectedElement="_PUOeE9WhEeSq5MKhBFqpIQ">
+          <children xsi:type="basic:PartSashContainer" xmi:id="_PUOeEdWhEeSq5MKhBFqpIQ" selectedElement="_PUOeEtWhEeSq5MKhBFqpIQ" horizontal="true">
+            <children xsi:type="basic:PartStack" xmi:id="_PUOeEtWhEeSq5MKhBFqpIQ" elementId="topLeft" containerData="2147" selectedElement="_PUOeE9WhEeSq5MKhBFqpIQ">
               <tags>newtablook</tags>
+              <tags>active</tags>
               <children xsi:type="advanced:Placeholder" xmi:id="_PUOeE9WhEeSq5MKhBFqpIQ" elementId="org.eclipse.ui.navigator.ProjectExplorer" ref="_PUBpwNWhEeSq5MKhBFqpIQ"/>
               <children xsi:type="advanced:Placeholder" xmi:id="_PUOeFNWhEeSq5MKhBFqpIQ" elementId="org.eclipse.cdt.ui.CView" toBeRendered="false" ref="_PUC34NWhEeSq5MKhBFqpIQ"/>
               <children xsi:type="advanced:Placeholder" xmi:id="_PUOeFdWhEeSq5MKhBFqpIQ" elementId="org.eclipse.ui.views.ResourceNavigator" toBeRendered="false" ref="_PUC34dWhEeSq5MKhBFqpIQ"/>
               <children xsi:type="advanced:Placeholder" xmi:id="_PUOeFtWhEeSq5MKhBFqpIQ" elementId="org.eclipse.ui.views.BookmarkView" toBeRendered="false" ref="_PUDe8NWhEeSq5MKhBFqpIQ"/>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_PUOeF9WhEeSq5MKhBFqpIQ" containerData="8445" selectedElement="_PUOeGNWhEeSq5MKhBFqpIQ">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_PUOeF9WhEeSq5MKhBFqpIQ" containerData="7853" selectedElement="_PUOeGNWhEeSq5MKhBFqpIQ">
               <children xsi:type="basic:PartSashContainer" xmi:id="_PUOeGNWhEeSq5MKhBFqpIQ" containerData="7500" selectedElement="_PUOeGdWhEeSq5MKhBFqpIQ" horizontal="true">
                 <children xsi:type="advanced:Placeholder" xmi:id="_PUOeGdWhEeSq5MKhBFqpIQ" elementId="org.eclipse.ui.editorss" containerData="7500" ref="_PT01cNWhEeSq5MKhBFqpIQ"/>
                 <children xsi:type="basic:PartStack" xmi:id="_PUOeGtWhEeSq5MKhBFqpIQ" elementId="topRight" containerData="2500" selectedElement="_PUOeG9WhEeSq5MKhBFqpIQ">
@@ -87,7 +87,7 @@
                   <children xsi:type="advanced:Placeholder" xmi:id="_PUOeHdWhEeSq5MKhBFqpIQ" elementId="org.eclipse.mylyn.tasks.ui.views.tasks" ref="_PUNP8NWhEeSq5MKhBFqpIQ"/>
                 </children>
               </children>
-              <children xsi:type="basic:PartStack" xmi:id="_PUOeHtWhEeSq5MKhBFqpIQ" elementId="bottom" containerData="2500" selectedElement="_PUOeIdWhEeSq5MKhBFqpIQ">
+              <children xsi:type="basic:PartStack" xmi:id="_PUOeHtWhEeSq5MKhBFqpIQ" elementId="bottom" containerData="2500" selectedElement="_GyBlQdbaEeS-FIxLJxswEg">
                 <tags>newtablook</tags>
                 <tags>org.eclipse.e4.secondaryDataStack</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_PUOeH9WhEeSq5MKhBFqpIQ" elementId="org.eclipse.ui.views.ProblemView" ref="_PUDe8dWhEeSq5MKhBFqpIQ"/>
@@ -95,6 +95,8 @@
                 <children xsi:type="advanced:Placeholder" xmi:id="_PUOeIdWhEeSq5MKhBFqpIQ" elementId="org.eclipse.ui.console.ConsoleView" ref="_PUEtENWhEeSq5MKhBFqpIQ"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_PUOeItWhEeSq5MKhBFqpIQ" elementId="org.eclipse.ui.views.PropertySheet" ref="_PUFUINWhEeSq5MKhBFqpIQ"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_o1410dYiEeSq5MKhBFqpIQ" elementId="org.eclipse.ui.console.ConsoleView:Console View #1" toBeRendered="false" ref="_o1410NYiEeSq5MKhBFqpIQ"/>
+                <children xsi:type="advanced:Placeholder" xmi:id="_IFrjwdZREeSJEqjYMSinVQ" elementId="org.eclipse.team.ui.GenericHistoryView" ref="_IFrjwNZREeSJEqjYMSinVQ"/>
+                <children xsi:type="advanced:Placeholder" xmi:id="_GyBlQdbaEeS-FIxLJxswEg" elementId="org.eclipse.egit.ui.RepositoriesView" ref="_GyBlQNbaEeS-FIxLJxswEg"/>
               </children>
             </children>
           </children>
@@ -210,19 +212,33 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_PT01cNWhEeSq5MKhBFqpIQ" elementId="org.eclipse.ui.editorss" selectedElement="_PT01cdWhEeSq5MKhBFqpIQ">
-      <children xsi:type="basic:PartStack" xmi:id="_PT01cdWhEeSq5MKhBFqpIQ" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_bj9lkNZKEeSr3an-Vx8BFw">
+      <children xsi:type="basic:PartStack" xmi:id="_PT01cdWhEeSq5MKhBFqpIQ" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_UxZpMNblEeSRsI4K5evNFw">
         <tags>newtablook</tags>
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
-        <tags>active</tags>
-        <tags>noFocus</tags>
-        <children xsi:type="basic:Part" xmi:id="_bj9lkNZKEeSr3an-Vx8BFw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="CartesianTree.cpp" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/obj16/c_file_obj.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;CartesianTree.cpp&quot; partName=&quot;CartesianTree.cpp&quot; title=&quot;CartesianTree.cpp&quot; tooltip=&quot;CartesianTree/CartesianTree.cpp&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/CartesianTree/CartesianTree.cpp&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;495&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
+        <children xsi:type="basic:Part" xmi:id="_0RhQwNbUEeS-FIxLJxswEg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="CartesianTreeImplictKey.cpp" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/obj16/c_file_obj.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;CartesianTreeImplictKey.cpp&quot; partName=&quot;CartesianTreeImplictKey.cpp&quot; title=&quot;CartesianTreeImplictKey.cpp&quot; tooltip=&quot;CartesianTreeImplictKey/CartesianTreeImplictKey.cpp&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/CartesianTreeImplictKey/CartesianTreeImplictKey.cpp&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;2039&quot; selectionTopPixel=&quot;1215&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.cdt.ui.editor.CEditor</tags>
           <tags>removeOnHide</tags>
-          <tags>active</tags>
-          <tags>activeOnClose</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_HOGPgNbVEeS-FIxLJxswEg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="CartesianTree.cpp" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/obj16/c_file_obj.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;CartesianTree.cpp&quot; partName=&quot;CartesianTree.cpp&quot; title=&quot;CartesianTree.cpp&quot; tooltip=&quot;CartesianTree/CartesianTree.cpp&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/CartesianTree/CartesianTree.cpp&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;26&quot; selectionOffset=&quot;26&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.cdt.ui.editor.CEditor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="__bNhANbfEeS-FIxLJxswEg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="DisjointSetUnion.cpp" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/obj16/c_file_obj.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;DisjointSetUnion.cpp&quot; partName=&quot;DisjointSetUnion.cpp&quot; title=&quot;DisjointSetUnion.cpp&quot; tooltip=&quot;DisjointSetUnion/DisjointSetUnion.cpp&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/DisjointSetUnion/DisjointSetUnion.cpp&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;635&quot; selectionTopPixel=&quot;376&quot;/>&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.cdt.ui.editor.CEditor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_UxZpMNblEeSRsI4K5evNFw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="FenwickTree.cpp" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/obj16/c_file_obj.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;FenwickTree.cpp&quot; partName=&quot;FenwickTree.cpp&quot; title=&quot;FenwickTree.cpp&quot; tooltip=&quot;FenwickTree/FenwickTree.cpp&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/FenwickTree/FenwickTree.cpp&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;862&quot; selectionTopPixel=&quot;450&quot;/>&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.cdt.ui.editor.CEditor</tags>
+          <tags>removeOnHide</tags>
         </children>
       </children>
     </sharedElements>
@@ -230,6 +246,8 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot; currentWorkingSetName=&quot;Aggregate for window 1427642121658&quot; org.eclipse.cdt.ui.cview.groupincludes=&quot;false&quot; org.eclipse.cdt.ui.cview.groupmacros=&quot;false&quot; org.eclipse.cdt.ui.editor.CUChildren=&quot;true&quot; org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets=&quot;0&quot;/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
+      <tags>active</tags>
+      <tags>activeOnClose</tags>
       <menus xmi:id="_PVuS4NWhEeSq5MKhBFqpIQ" elementId="org.eclipse.ui.navigator.ProjectExplorer">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -276,7 +294,7 @@
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_sXtl8dWiEeSq5MKhBFqpIQ" elementId="org.eclipse.ui.console.ConsoleView"/>
+      <toolbar xmi:id="_sXtl8dWiEeSq5MKhBFqpIQ" elementId="org.eclipse.ui.console.ConsoleView" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_PUFUINWhEeSq5MKhBFqpIQ" elementId="org.eclipse.ui.views.PropertySheet" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Properties" iconURI="platform:/plugin/org.eclipse.ui.views/icons/full/eview16/prop_ps.png" closeable="true">
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view/>"/>
@@ -395,6 +413,26 @@
       </menus>
       <toolbar xmi:id="_UsGF8dY2EeSwyaJVULkzbw" elementId="org.eclipse.debug.ui.VariableView" visible="false"/>
     </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_IFrjwNZREeSJEqjYMSinVQ" elementId="org.eclipse.team.ui.GenericHistoryView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="History" iconURI="platform:/plugin/org.eclipse.team.ui/icons/full/eview16/history_view.gif" closeable="true">
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view/>"/>
+      <tags>View</tags>
+      <tags>categoryTag:Team</tags>
+      <menus xmi:id="_IFzfkNZREeSJEqjYMSinVQ" elementId="org.eclipse.team.ui.GenericHistoryView">
+        <tags>ViewMenu</tags>
+        <tags>menuContribution:menu</tags>
+      </menus>
+      <toolbar xmi:id="_IFzfkdZREeSJEqjYMSinVQ" elementId="org.eclipse.team.ui.GenericHistoryView" visible="false"/>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_GyBlQNbaEeS-FIxLJxswEg" elementId="org.eclipse.egit.ui.RepositoriesView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Git Repositories" iconURI="platform:/plugin/org.eclipse.egit.ui/icons/eview16/repo_rep.gif" closeable="true">
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot;/>"/>
+      <tags>View</tags>
+      <tags>categoryTag:Git</tags>
+      <menus xmi:id="_GyLWQNbaEeS-FIxLJxswEg" elementId="org.eclipse.egit.ui.RepositoriesView">
+        <tags>ViewMenu</tags>
+        <tags>menuContribution:menu</tags>
+      </menus>
+      <toolbar xmi:id="_GyLWQdbaEeS-FIxLJxswEg" elementId="org.eclipse.egit.ui.RepositoriesView"/>
+    </sharedElements>
     <trimBars xmi:id="_PArP8NWhEeSq5MKhBFqpIQ" elementId="org.eclipse.ui.main.toolbar">
       <children xsi:type="menu:ToolBar" xmi:id="_PCMS4NWhEeSq5MKhBFqpIQ" elementId="group.file" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -402,7 +440,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_PCNhANWhEeSq5MKhBFqpIQ" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_aadm4NZKEeSr3an-Vx8BFw" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_OlFgK9WhEeSq5MKhBFqpIQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_f7em4NbjEeSRsI4K5evNFw" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_OlFgK9WhEeSq5MKhBFqpIQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_PCOIENWhEeSq5MKhBFqpIQ" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -426,7 +464,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_PCP9QNWhEeSq5MKhBFqpIQ" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_aamJwNZKEeSr3an-Vx8BFw" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_OlB11NWhEeSq5MKhBFqpIQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_f7l7odbjEeSRsI4K5evNFw" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_OlB11NWhEeSq5MKhBFqpIQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_PCP9QdWhEeSq5MKhBFqpIQ" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -777,7 +815,8 @@
     <bindings xmi:id="_xxkNANZGEeSJ5s3XlRTgZg" keySequence="CTRL+SHIFT+SPACE" command="_OlDq-tWhEeSq5MKhBFqpIQ">
       <tags>type:user</tags>
     </bindings>
-    <bindings xmi:id="_aCa6UdZKEeSr3an-Vx8BFw" keySequence="COMMAND+CTRL+F" command="_Omt30tWhEeSq5MKhBFqpIQ"/>
+    <bindings xmi:id="_wjnuANZYEeS-FIxLJxswEg" keySequence="COMMAND+6" command="_wiqEsNZYEeS-FIxLJxswEg"/>
+    <bindings xmi:id="_ffjf4dbjEeSRsI4K5evNFw" keySequence="COMMAND+CTRL+F" command="_Omt30tWhEeSq5MKhBFqpIQ"/>
   </bindingTables>
   <bindingTables xmi:id="_OmBUQtWhEeSq5MKhBFqpIQ" elementId="org.eclipse.cdt.ui.cEditorScope" bindingContext="_OlPRJ9WhEeSq5MKhBFqpIQ">
     <bindings xmi:id="_OmBUQ9WhEeSq5MKhBFqpIQ" keySequence="CTRL+SHIFT+ARROW_LEFT" command="_OlDq-9WhEeSq5MKhBFqpIQ">
@@ -965,7 +1004,7 @@
     <bindings xmi:id="_OmXSgNWhEeSq5MKhBFqpIQ" keySequence="COMMAND+C" command="_Ok-yf9WhEeSq5MKhBFqpIQ"/>
   </bindingTables>
   <bindingTables xmi:id="_OmvF8NWhEeSq5MKhBFqpIQ" contributorURI="platform:/fragment/org.eclipse.e4.ui.workbench.renderers.swt.cocoa" bindingContext="_OkTdBdWhEeSq5MKhBFqpIQ">
-    <bindings xmi:id="_aCcIcNZKEeSr3an-Vx8BFw" keySequence="M1+W" command="_Omue4tWhEeSq5MKhBFqpIQ"/>
+    <bindings xmi:id="_ffkG8NbjEeSRsI4K5evNFw" keySequence="M1+W" command="_Omue4tWhEeSq5MKhBFqpIQ"/>
   </bindingTables>
   <bindingTables xmi:id="_PT3RsdWhEeSq5MKhBFqpIQ" bindingContext="_PT3RsNWhEeSq5MKhBFqpIQ"/>
   <bindingTables xmi:id="_PT34wdWhEeSq5MKhBFqpIQ" bindingContext="_PT34wNWhEeSq5MKhBFqpIQ"/>
@@ -2298,6 +2337,7 @@
   <commands xmi:id="_O_ngAtWhEeSq5MKhBFqpIQ" elementId="AUTOGEN:::org.eclipse.mylyn.tasks.ui.actions.view/org.eclipse.mylyn.context.ui.actions.tasklist.focus" commandName="Focus on Workweek" description="Focus on Workweek" category="_Ok4r7tWhEeSq5MKhBFqpIQ"/>
   <commands xmi:id="_O_oHENWhEeSq5MKhBFqpIQ" elementId="AUTOGEN:::org.eclipse.rse.ui.view.systemView.toolbar/org.eclipse.rse.ui.view.systemView.toolbar.linkWithSystemView" commandName="Link with Editor" category="_Ok4r7tWhEeSq5MKhBFqpIQ"/>
   <commands xmi:id="_ChFwQNZFEeSJ5s3XlRTgZg" elementId="net.sourceforge.vrapper.eclipse.commands.toggle" commandName="Toggle Vrapper" description="Toggles Vrapper" category="_ChEiIdZFEeSJ5s3XlRTgZg"/>
+  <commands xmi:id="_wiqEsNZYEeS-FIxLJxswEg" elementId="com.wakatime.eclipse.plugin.commands.menuCommand" commandName="API Key" category="_wio2kdZYEeS-FIxLJxswEg"/>
   <addons xmi:id="_OkTdBtWhEeSq5MKhBFqpIQ" elementId="org.eclipse.e4.core.commands.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_OkTdB9WhEeSq5MKhBFqpIQ" elementId="org.eclipse.e4.ui.contexts.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_OkTdCNWhEeSq5MKhBFqpIQ" elementId="org.eclipse.e4.ui.bindings.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
@@ -2359,4 +2399,5 @@
   <categories xmi:id="_Ok5S4dWhEeSq5MKhBFqpIQ" elementId="org.eclipse.cdt.debug.ui.category.tracing" name="Tracing Commands" description="Category for Tracing Commands"/>
   <categories xmi:id="_Ok5S4tWhEeSq5MKhBFqpIQ" elementId="org.eclipse.cdt.managedbuilder.ui.category.build" name="C/C++ Build" description="C/C++ Build Actions"/>
   <categories xmi:id="_ChEiIdZFEeSJ5s3XlRTgZg" elementId="net.sourceforge.vrapper.eclipse.commands" name="Vrapper" description="Commands for Vrapper"/>
+  <categories xmi:id="_wio2kdZYEeS-FIxLJxswEg" elementId="com.wakatime.eclipse.plugin.commands.category" name="Settings"/>
 </application:Application>

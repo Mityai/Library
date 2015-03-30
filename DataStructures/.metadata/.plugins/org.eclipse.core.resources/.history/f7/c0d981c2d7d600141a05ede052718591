@@ -1,0 +1,16 @@
+/*
+ * DisjointSetUnion.cpp
+ *
+ *  Created on: Mar 30, 2015
+ *      Author: dima
+ */
+
+#include <bits/stdc++.h>
+
+int p[x];
+
+void find(int x) {
+	return x == p[x] ? x : p[x] = find(p[x]);
+}
+
+

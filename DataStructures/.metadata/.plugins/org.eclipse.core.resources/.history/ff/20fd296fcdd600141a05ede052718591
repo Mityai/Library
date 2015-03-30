@@ -1,0 +1,65 @@
+/*
+ * CartesianTreeImplictKey.cpp
+ *
+ *  Created on: Mar 30, 2015
+ *      Author: dima
+ */
+
+#include <bits/stdc++.h>
+
+struct Node {
+	Node *l, *r;
+	int key, prior;
+	int sz;
+
+	Node() :
+		l(nullptr), r(nullptr), key(0), prior(rand()), sz(1) {};
+
+	Node(int key) : Node() {
+		this->key = key;
+	}
+};
+
+int getSize(Node *node) {
+	return node ? node->sz : 0;
+}
+
+void relax(Node *node) {
+	if (!node) return;
+	node->sz = 1 + getSize(node->l) + getSize(node->r);
+}
+
+Node *merge(Node *left, Node *right) {
+	if (!left) return right;
+	if (!right) return left;
+
+	if (left->prior > right->prior) {
+		left->r = merge(left->r, right);
+		relax(left);
+		return left;
+	} else {
+		right->l = merge(left, right->l);
+		relax(right);
+		return right;
+	}
+}
+
+void split(Node *node, int k, Node *&left, Node *&right) {
+	if (!node) {
+		left = right = nullptr;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

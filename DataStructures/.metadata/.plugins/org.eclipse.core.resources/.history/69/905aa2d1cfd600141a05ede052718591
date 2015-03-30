@@ -1,0 +1,122 @@
+/*
+ * CartesianTreeImplictKey.cpp
+ *
+ * Treap with Implict Key
+ * Merge, Split, Insert, Erase, K-th
+ *
+ *  Created on: Mar 30, 2015
+ *      Author: dima
+ */
+
+#include <bits/stdc++.h>
+
+struct Node {
+	Node *l, *r;
+	int key, prior;
+	int sz;
+
+	Node() :
+		l(nullptr), r(nullptr), key(0), prior(rand()), sz(1) {};
+
+	Node(int key) : Node() {
+		this->key = key;
+	}
+};
+
+int getSize(Node *node) {
+	return node ? node->sz : 0;
+}
+
+void relax(Node *node) {
+	if (!node) return;
+	node->sz = 1 + getSize(node->l) + getSize(node->r);
+}
+
+Node *merge(Node *left, Node *right) {
+	if (!left) return right;
+	if (!right) return left;
+
+	if (left->prior > right->prior) {
+		left->r = merge(left->r, right);
+		relax(left);
+		return left;
+	} else {
+		right->l = merge(left, right ->l);
+		relax(right);
+		return right;
+	}
+}
+
+void split(Node *node, int k, Node *&left, Node *&right) {
+	if (!node) {
+		left = right = nullptr;
+	}
+
+	if (getSize(node->l) < k) {
+		split(node->r, k - getSize(node->l) - 1, node->r, right);
+		left = node;
+		relax(left);
+	} else {
+		split(node->l, k, left, node->l);
+		right = node;
+		relax(right);
+	}
+}
+
+void insert(Node *&root, int pos, int x) { // pos = [0..n], n = size of tree
+	assert(pos <= getSize(root));
+
+	Node *A, *B;
+	split(root, pos, A, B);
+	root = merge(A, new Node(x));
+	root = merge(root, B);
+}
+
+void erase(Node *&root, int pos) { // pos = [1..n]
+	assert(pos <= getSize(root));
+	Node *A, *trash, *C;
+	split(root, pos, A, C);
+	split(A, pos - 1, A, trash);
+	root = merge(A, C);
+}
+
+int findKth(Node *node, int k) {
+	assert(k <= getSize(node));
+
+	if (getSize(node->l) + 1 == k) {
+		return node->key;
+	}
+
+	if (getSize(node->l) > k) {
+		return findKth(node->l, k);
+	}
+
+	return findKth(node->r, k - getSize(node->l) - 1);
+}
+
+int main() {
+	srand(time(nullptr));
+
+	Node *root = nullptr;
+
+	int q;
+	scanf("%d", &q);
+
+	for (int i = 0; i < q; i++) {
+		std::string request;
+		std::cin >> request;
+
+		if (request == "insert") {
+		} else if (request == "delete") {
+		} else if (request == "kth") {
+
+	}
+}
+
+
+
+
+
+
+
+

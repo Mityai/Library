@@ -1,0 +1,37 @@
+/*
+ * DisjointSetUnion.cpp
+ *
+ *  Created on: Mar 30, 2015
+ *      Author: dima
+ */
+
+#include <bits/stdc++.h>
+
+const int N = int(1e5);
+
+int p[N];
+
+void makeSet(int x) {
+	p[x] = x;
+}
+
+int findSet(int x) {
+	return x == p[x] ? x : p[x] = findSet(p[x]);
+}
+
+void unionSets(int x, int y) {
+	x = findSet(x);
+	y = findSet(y);
+
+	p[y] = x;
+
+	if (rnk[x] < rnk[y]) {
+		swap(x, y);
+	}
+}
+
+int main() {
+	int n;
+	scanf("%d", &n);
+}
+

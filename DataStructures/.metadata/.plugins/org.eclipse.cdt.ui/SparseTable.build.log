@@ -1,7 +1,6 @@
-22:33:43 **** Clean-only build of configuration Debug for project SparseTable ****
-make clean 
-rm -rf  ./SparseTable.o  ./SparseTable.d  SparseTable
- 
+23:12:37 **** Incremental Build of configuration Debug for project SparseTable ****
+make all 
+make: Nothing to be done for `all'.
 
-22:33:43 Build Finished (took 69ms)
+23:12:37 Build Finished (took 61ms)
 
