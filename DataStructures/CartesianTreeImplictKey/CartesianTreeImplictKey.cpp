@@ -1,10 +1,10 @@
 /*
- * CartesianTree.cpp
+ * CartesianTreeImplictKey.cpp
  *
- * Ordered Treap
- * Merge, Split, Find, Insert, Erase, K-th
+ * Treap with Implict Key
+ * Merge, Split, Insert, Erase, K-th
  *
- *  Created on: Mar 29, 2015
+ *  Created on: Mar 30, 2015
  *      Author: dima
  */
 
@@ -47,44 +47,35 @@ Node *merge(Node *left, Node *right) {
 	}
 }
 
-void split(Node *node, int key, Node *&left, Node *&right) {
+void split(Node *node, int k, Node *&left, Node *&right) {
 	if (!node) {
 		left = right = nullptr;
 		return;
 	}
 
-	if (node->key <= key) {
-		split(node->r, key, node->r, right);
+	if (getSize(node->l) < k) {
+		split(node->r, k - getSize(node->l) - 1, node->r, right);
 		left = node;
 		relax(left);
 	} else {
-		split(node->l, key, left, node->l);
+		split(node->l, k, left, node->l);
 		right = node;
 		relax(right);
 	}
 }
 
-void insert(Node *&root, int x) {
+void insert(Node *&root, int pos, int x) { // pos = [1..n + 1], n = size of tree
 	Node *A, *B;
-	split(root, x, A, B);
+	split(root, pos - 1, A, B);
 	root = merge(A, new Node(x));
 	root = merge(root, B);
 }
 
-void erase(Node *&root, int x) {
-	Node *A, *T, *B;
-	split(root, x - 1, A, B);
-	split(B, x, T, B);
-	root = merge(A, B);
-}
-
-bool find(Node *node, int key) {
-	Node *A, *B, *C;
-	split(node, key - 1, A, B);
-	split(B, key, B, C);
-	node = merge(A, B);
-	node = merge(node, C);
-	return B != nullptr;
+void erase(Node *&root, int pos) { // pos = [1..n]
+	Node *A, *trash, *C;
+	split(root, pos, A, C);
+	split(A, pos - 1, A, trash);
+	root = merge(A, C);
 }
 
 int findKth(Node *node, int k) {
@@ -113,19 +104,21 @@ int main() {
 		std::string request;
 		std::cin >> request;
 
-		int x;
-		scanf("%d", &x);
-
 		if (request == "insert") {
-			if (!find(root, x)) {
-				insert(root, x);
-			}
+			int pos, x;
+			scanf("%d%d", &pos, &x);
+
+			insert(root, pos, x);
 		} else if (request == "delete") {
-			erase(root, x);
-		} else if (request == "exists") {
-			find(root, x) ? puts("true") : puts("false");
+			int pos;
+			scanf("%d", &pos);
+
+			erase(root, pos);
 		} else if (request == "kth") {
-			printf("%d\n", findKth(root, x));
+			int pos;
+			scanf("%d", &pos);
+
+			printf("K-th element is %d\n", findKth(root, pos));
 		}
 	}
 }
